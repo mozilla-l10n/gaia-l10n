@@ -1,2 +1,2 @@
-This directory contains the sq locale for Firefox OS.
-For English files, see https://hg.mozilla.org/gaia-l10n/en-US/
+Kjo drejtori përmban gjuhën për Firefox OS.
+Për kartelat në Anglisht, shihni te https://hg.mozilla.org/gaia-l10n/en-US/
