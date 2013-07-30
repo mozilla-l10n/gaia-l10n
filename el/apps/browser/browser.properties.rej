@@ -1,0 +1,21 @@
+--- browser.properties
++++ browser.properties
+@@ -80,17 +80,17 @@ not-responding=Προσπαθήσαμε 
+ close-tab=Κλείσιμο καρτέλας
+ reload-tab=Ανανέωση
+ 
+ # Awesomescreen
+ search-for=Αναζήτηση για
+ 
+ # Image saving context menu
+ save-image=Αποθήκευση εικόνας
+-image-saved=Η εικόνα αποθηκεύτηκε στην Έκθεση
++image-saved=Η εικόνα αποθηκεύτηκε στα Πολυμέσα
+ error-saving-image=Παρουστιάστηκε κάποιο σφάλμα κατά την αποθήκευση της εικόνας
+ 
+ # Video saving context menu
+ save-video=Αποθήκευση Βίντεο
+ video-saved=Το βίντεο αποθηκεύτηκε στα Βίντεο
+ error-saving-video=Παρουστιάστηκε κάποιο σφάλμα κατά την αποθήκευση του βίντεο
+ 
+ # Audio saving context menu
