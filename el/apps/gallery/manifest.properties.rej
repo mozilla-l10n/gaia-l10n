@@ -1,7 +1,0 @@
---- manifest.properties
-+++ manifest.properties
-@@ -1,2 +1,2 @@
--name=Έκθεση
--description=Έκθεση του Gaia
-+name=Πολυμέσα
-+description=Πολυμέσα του Gaia
