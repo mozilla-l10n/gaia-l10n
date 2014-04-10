@@ -4,6 +4,7 @@ setup-empty-account-prompt=أنت غير مٌعدّ لإرسال أو استقب
 setup-pick-service=لإرسال واستقبال البريد الإلكتروني، تحتاج لإعداد حساب.
 # Title of the account setup card where the user enters their display name,
 # e-mail address, and password.
+setup-info-header=معلوماتك لتسجيل الدخول
 
 # The placeholder for the display name of the user that will be displayed in the
 # account setup screen input box for the display name until they enter any text

@@ -21,6 +21,8 @@ enterPIN=أدخل كود PIN
 # status bar text label
 statusbarLabel={{operator}} ،{{date}}
 # see http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
+# either 24-hour format (%H:%M) or 12-hour without AM/PM (%I:%M)
+statusbarTimeFormat=%I:%M
 
 # notifications
 notifications=التنبيهات
@@ -334,14 +336,9 @@ unknown-free-space=المساحة الفارغة غير معروفة.
 
 # IME (Keyboard)
 
-# LOCALIZATION NOTE(ime-switching-title): parameters will be replace at run-
-# time. Resulting example for English: "Built-in Keyboard: English".
-
 # Shrinking UI
 
 # Download Manager
 
 
 # Rocketbar
-
-# Hotspot
