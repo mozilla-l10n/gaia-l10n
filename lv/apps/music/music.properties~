@@ -1,0 +1,53 @@
+music = Mūzika
+
+mix       = Mix
+playlists = Atskaņošanas saraksts
+artists   = Mākslinieki
+albums    = Albumi
+songs     = Dziesmas
+more      = Vairāk
+
+songArtist = Dziesmas mākslinieks
+songAlbum  = Dziesmas albums
+
+unknownArtist = Nezināms mākslinieks
+unknownAlbum  = Nezināms albums
+unknownTitle  = Nezināms virsraksts
+
+empty-title = Pievienojiet dziesmas lai uzsākt
+empty-text = Ielādējiet dziesmas uz atmiņas karti.
+
+nocard2-title = Netika atrasta nevien atmiņas karte
+nocard3-text  = Ievietojiet atmiņas karti lai klausītos dziesmas.
+
+pluggedin-title = Mūziku nevar atskaņot kamēr telefons ir savienots
+pluggedin-text  = Atvienojiet telefonu lai atskaņot mūziku.
+
+upgrade-title = Datubāzes Atjaunināšana
+upgrade-text = Lūdzu uzgaidiet kamēr 'Mūzika' atjaunina savu datubāzi.
+
+search-music.placeholder = Meklēt Mūziku
+search-cancel = Atcelt
+search-artists = Artists
+search-albums = Albumi
+search-titles = Ceļi
+search-close = aizvērt
+
+playlists-shuffle-all    = Visu jaukt
+playlists-highest-rated  = Vislabāk novērtēts
+playlists-recently-added = Nesen pievienots
+playlists-most-played    = Visvairāk atskaņots
+playlists-least-played   = Vismazāk atskaņots
+
+picker-title = Izvēlēties ceļu
+
+save  = Saglabāt
+saved = Saglabāt {{title}} Mūzikā
+
+audioinvalid = Skaņu nevar atskaņot: formāts nav atbalstīts vai datne nav derīga.
+
+overlay-cancel-button = Atcelt
+
+music-paused-notification = Mūzika tika pauzēta zvana laikā
+done = Paveikts
+

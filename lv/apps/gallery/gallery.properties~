@@ -1,0 +1,90 @@
+number-selected2 = {[ plural(n) ]}
+number-selected2[zero]  = Izvēlieties
+number-selected2[one]   = {{ n }} izvēlēts
+number-selected2[two]   = {{ n }} izvēlēti
+number-selected2[few]   = {{ n }} izvēlēti
+number-selected2[many]  = {{ n }} izvēlēti
+number-selected2[other] = {{ n }} izvēlēti
+
+delete-photo? = Dzēst fotogrāfiju?
+delete-video? = Dzēst video?
+
+# An "item" means a photo or a video
+# The app currently doesn't use the [zero] case
+delete-n-items? = {[ plural(n) ]}
+delete-n-items?[zero]  = Nekas nav izvēlēts
+delete-n-items?[one]   = Delete selected item?
+delete-n-items?[two]   = Delete {{ n }} items?
+delete-n-items?[few]   = Delete {{ n }} items?
+delete-n-items?[many]  = Delete {{ n }} items?
+delete-n-items?[other] = Delete {{ n }} items?
+
+pickoneimage2 = Izvēlēties
+cropimage = Crop
+
+cancel   = Atcelt
+delete   = Dzēst
+ok       = Labi
+edit     = Rediģēt
+save     = Saglabāt
+done     = Paveikts
+exposure = Exposure
+crop     = Crop
+effects  = Efekti
+borders  = Malas
+enhance-on = Auto-enhance on
+enhance-off = Auto-enhance off
+
+original      = Original
+blackandwhite = M&B
+sepia         = Sepia
+
+freeform  = Freeform
+portrait  = Portrait
+landscape = Landscape
+square    = Kvadrāts
+
+emptygallery2-title = Nav fotogrāfiju vai video
+emptygallery2-text  = Izmantojiet Kameras aplikāciju lai iesākt.
+emptygallery2-title-pick = Nav fotogrāfiju
+
+nocard3-title = Nav atmiņas karti
+nocard4-text  = Ievietojiet atmiņas karti lai izmantot šo aplikāciju.
+
+pluggedin2-title = Atmiņas karte šobrīd jau ir lietota
+pluggedin2-text  = Unplug the phone to use this app.
+
+scanning-title = Skenē
+scanning-text  = Meklē fotogrāfijas un video.
+
+upgrade-title = Database Upgrade
+upgrade-text = Please wait while Gallery updates its database.
+
+share-noprovider = Can not share this image file type.
+
+memorycardfull = Can not edit photos: Memory card is full.
+
+imagetoobig = Attēls ir par lielu lai to attēlot uz šo ierīci.
+imageinvalid = Image is invalid or corrupt and cannot be displayed.
+
+saved = {{filename}} saglabāts Galerijā
+
+overlay-camera-button = Iet uz Kameru
+
+name-label = Nosaukums
+size-label = Izmērs
+image-type-label = Attēla Veids
+date-taken-label = Uzņemšanas Datums
+resolution-label = Rezolūcija
+close-button = Aizvērt
+
+byteUnit-B  = Biti
+byteUnit-KB = KB
+byteUnit-MB = MB
+byteUnit-GB = GB
+gallery = Galerija
+preview = Priekšskatījums
+
+# Header format used in thumbnail view
+# see http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
+date-group-header = %B %Y
