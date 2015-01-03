@@ -1,0 +1,265 @@
+call   = Zvanīt
+edit   = Rediģēt
+cancel = Atcelt
+done   = Tas viss!
+ok     = Labi
+update = Atjaunināt
+retry  = Mēģināt vēlreiz
+
+# Menus and dialog strings
+contacts           = Kontakti
+addContact         = Pievienot kontaktu
+deleteContact      = Dzēst kontaktu
+selectContact      = Izvēlēties kontaktu
+selectAll          = Izvēlēties visus
+deselectAll        = Deselect all
+editContact        = Rediģēt kontaktu
+deleteConfirmMsg   = Vai dzēst šo kontaktu?
+remove             = Noņemt
+delete             = Dzēst
+comments           = Comments
+no_contact_phones  = This contact does not have a phone number
+no_contact_email   = This contact does not have an email address
+no_contact_data    = This contact does not have a phone number and email address
+removePhotoConfirm = Vai noņemt kontakta attēlu?
+loadingContacts    = Ielādē kontaktus…
+# LOCALIZATION NOTE(noContactsActivity): Shown when using the context menu to add
+# a number from your call list to a contact, and your contacts list is empty.
+noContactsActivity = Cannot add to contact as your contact list is empty
+
+# Contact fields
+noName                    = Nav vārda
+givenName.placeholder     = Vārds
+familyName.placeholder    = Uzvārds
+tel.placeholder           = Phone
+carrier                   = Carrier
+separator                 = ,
+carrier.placeholder       = Carrier
+email                     = Epasts
+email.placeholder         = Epasts
+streetAddress.placeholder = Iela
+postalCode.placeholder    = Pasta indekss
+locality.placeholder      = Pilsēta
+countryName.placeholder   = Valsts
+comment.placeholder       = Comment
+org.placeholder           = Uzņēmums
+date                      = Datums
+date-span-placeholder     = Datums
+date.placeholder          = Datums
+
+birthday                  = Birthday
+# see http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
+dateFormat                = %B %e
+dateOutput                = {{dayMonthFormatted}} {{year}}
+
+anniversary               = Dzimšanas diena
+
+# Contact action buttons
+addPhoto       = Pievienot attēlu
+addPhone       = Pievienot tālruni
+addEmail       = Pievienot epastu
+addAddress     = Pievienot adresi
+addDate        = Pievienot datumu
+addComment     = Pievienot komentāru
+addFavorite    = Pievienot kā iecienītu
+removeFavorite = Noņemt no iecienītiem
+
+# The following strings are spoken by screen readers and not shown on the
+# screen.
+addButton.ariaLabel      = Pievienot
+editButton.ariaLabel     = Rediģēt
+settingsButton.ariaLabel = Iestatījumi
+phoneDetail.ariaLabel    = Phone
+emailDetail.ariaLabel    = Email
+addressDetail.ariaLabel  = Adrese
+dateDetail.ariaLabel     = Datums
+composeEmail.ariaLabel   = Epasts
+makeCall.ariaLabel       = Zvanīt
+phones.ariaLabel         = Telefoni
+emails.ariaLabel         = Epasti
+addresses.ariaLabel      = Adreses
+dates.ariaLabel          = Datumi
+notes.ariaLabel          = Piezīmes
+exit                     = Iziet
+expand                   = Expand
+labelName                = Vārds:
+labelLastName            = Uzvārds:
+labelPhoneNumber         = Phone number:
+labelCarrier             = Carrier:
+labelEmail               = Epasts:
+labelStreet              = Iela:
+labelZip                 = Pasta indekss:
+labelCity                = Pilsēta:
+labelCountry             = Valsts:
+labelComment             = Comment:
+legendTitleMain          = Main information
+legendPhones             = Telefona numuri
+legendEmail              = Epasta adrese
+legendAddress            = Adrese
+
+# search related
+search-contact.placeholder = Meklēt
+noResults = No contacts found
+
+transferContactsTitle   = Transfer Contacts
+importContactsTitle     = Importēt kontaktus
+importContactsButton    = Importēt kontaktus
+exportContactsTitle     = Eksportēt kontaktus
+exportContactsButton    = Eksportēt kontaktus
+
+exportContactsAction    = Eksportēt
+
+# Export
+simExport-title        = Eksportēt uz SIM
+memoryCardExport-title = Eksportēt uz atmiņas karti
+btExport-title         = Export to Bluetooth
+memoryCardUMSEnabled   = Cannot use memory card because USB storage is enabled
+exportErrorTitle       = Eksporta kļūda
+
+contactsExported2        = {[ plural(exported) ]}
+contactsExported2[zero]  = No contacts exported
+contactsExported2[one]   = {{exported}}/{{total}} contacts exported
+contactsExported2[two]   = {{exported}}/{{total}} contacts exported
+contactsExported2[few]   = {{exported}}/{{total}} contacts exported
+contactsExported2[many]  = {{exported}}/{{total}} contacts exported
+contactsExported2[other] = {{exported}}/{{total}} contacts exported
+
+exportError-general         = Some error happened while exporting
+exportError-SD-shared       = Can’t access memory card because it’s shared
+exportError-SD-unavailable  = Memory card is not available
+exportError-SD-noSpace      = There’s not enough space on the memory card to export the contacts
+exportError-SIM-unavailable = SIM karte nav pieejama
+exportError-BT-shared       = Can’t access memory card because it’s shared
+exportError-BT-unavailable  = Memory card is not available
+exportError-BT-noSpace      = There’s not enough space on the memory card to export the contacts
+
+
+# Social networks
+social-network                    = Sociālie tīkli
+social-link                       = Saistīt kontaktu
+social-unlink                     = Atsaistīt kontaktu
+social-unlink-confirm-title       = Do you want to unlink your friend?
+social-unlink-confirm-accept      = Atsaistīt
+facebook-import                   = Importēt Facebook draugus
+show-fb-profile                   = View Facebook profile
+msg-send                          = Message
+wall-post                         = Wall post
+
+facebook-export-forbidden         = The contact cannot be shared due to Facebook constraint.
+
+otherAccount      = Citi konti
+facebookSwitchMsg = Sinhronizēt draugus
+
+# value selector
+select_mobile = Select mobile
+select_email  = Select email
+select_recipient = Izvēlieties saņemēju
+
+# Settings related
+contactsOrderBy   	= Kārtot pēc uzvārda
+importSim2        	= SIM karte
+importGmail       	= Gmail
+bluetooth         	= Bluetooth
+importOutlook     	= Outlook
+fbUpdateFriends   	= Update imported friends
+cleaningFbData    	= Removing Facebook data
+loggingOutFb      	= Logging out from Facebook
+cleanFbConfirmMsg 	= Remove all Facebook data?
+renewPwdMsg       	= Your password in Facebook has changed. Please, update it.
+notEnabledYet     	= Not enabled yet
+genericNoConnection = To import contacts connect to Wi-Fi or data network
+# Used for export, just in case the strings will diverge on time
+simCard             = SIM karte
+memoryCard          = Atmiņas karte
+
+simNumber           = SIM {{number}}
+simNumberWithMSISDN = SIM {{number}}: {{msisdn}}
+
+# ICE Contacts
+ICEContactsGroup              = ICE kontakti
+setICEButton                  = Set ICE Contacts
+ICESettingTitle               = ICE kontakti
+ICEDescription                = Add two contacts for making “In Case of Emergency” calls.
+ICEContact1                   = ICE 1. kontakts
+ICESelectContact              = Izvēlieties kontaktu
+ICEContact2                   = ICE 2. kontakts
+ICERepeatedContact            = This contact is already an existing ICE contact
+ICEUnknownError               = There was an error setting the contact as ICE
+ICEContactNoNumber            = Šīm kontaktam nav telefona numuru
+ICEFacebookContactNotAllowed  = Facebook contacts cannot be set as ICE contacts
+
+ICEContactDelTel    = Deleted phone numbers are removed from ICE Contact
+ICEContactDelTelAll = All the numbers are deleted. This contact is removed from the ICE Contacts.
+
+# No contacts
+no-contacts   = Nav kontaktu
+start-adding  = Start adding them now
+
+notImported   = Not imported
+imported      = Importēti
+today         = Šodien
+yesterday     = Vakardien
+
+messageCanceling = Please hold on. We are canceling the ongoing operation.
+
+organise-contacts              = Organize Contacts
+find-merge-contacts            = Find duplicate contacts
+
+preparing-contacts                    = Preparing contacts
+exportError-SIM-NoFreeRecordFound     = SIM Card is full
+exportError-SIM-CannotAccessPhoneBook = Cannot access SIM card’s phone book
+
+exportError-SIM-Unavailable           = No SIM detected
+exportError-SIM-GenericError          = An error occurred while exporting a contact
+
+noSimMsgExport                = To export contacts insert or unlock your SIM card
+
+noMemoryCardMsgExport                = To export contacts insert a memory card
+
+ContactManagementTitle   = Contacts Management
+DeleteTitle              = Dzēst
+bulkDeleteButton         = Dzēst Kontaktus
+BulkDelCancel            = Contacts delete cancelled
+DeletedTxt               = {[ plural(n) ]}
+DeletedTxt[zero]         = No Contact to Delete
+DeletedTxt[one]          = 1 Contact removed
+DeletedTxt[two]          = {{n}} Contacts removed
+DeletedTxt[few]          = {{n}} Contacts removed
+DeletedTxt[many]         = {{n}} Contacts removed
+DeletedTxt[other]        = {{n}} Contacts removed
+DeletingContacts         = Deleting contacts
+ContactConfirmDel        = {[ plural(n) ]}
+ContactConfirmDel[zero]  = No Contact to Delete
+ContactConfirmDel[one]   = Delete 1 Contact? This cannot be undone.
+ContactConfirmDel[two]   = Delete {{n}} Contacts? This cannot be undone.
+ContactConfirmDel[few]   = Delete {{n}} Contacts? This cannot be undone.
+ContactConfirmDel[many]  = Delete {{n}} Contacts? This cannot be undone.
+ContactConfirmDel[other] = Delete {{n}} Contacts? This cannot be undone.
+
+SelectedTxt         = {[ plural(n) ]}
+SelectedTxt[zero]   = Kontakti
+SelectedTxt[one]    = {{n}} izvēlēts
+SelectedTxt[two]    = {{n}} izvēlēti
+SelectedTxt[few]    = {{n}} selected
+SelectedTxt[many]   = {{n}} selected
+SelectedTxt[other]  = {{n}} selected
+
+# WebRTC App
+video 				= Video
+audio				= Audio
+
+# Pick Destination
+pick_destination = {{ destination }} {{ carrier }}
+
+# The following strings are spoken by screen readers and not shown on the
+# screen.
+removeField.ariaLabel = Noņemt
+undo.ariaLabel = Undo
+send-sms-button.ariaLabel = SMS
+
+# In Case of Emergency contacts (ICE)
+ice_contacts = ICE Contacts
+edit-picture = Rediģēt attēlu
+remove-photo = Noņemt attēlu
+change-photo = Mainīt attēlu
+photo-options = Photo options

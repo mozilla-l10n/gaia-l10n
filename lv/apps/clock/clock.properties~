@@ -1,0 +1,122 @@
+reset  = Reset
+start  = Sākt
+stop   = Stop
+cancel = Atcelt
+
+hour    = Stunda
+hours   = Stundas
+minute  = Minūte
+minutes = Minūtes
+
+alarm                 = Signāls
+timer                 = Taimeris
+stopwatch             = Hronometrs
+alarmName.placeholder = Signāla nosaukums
+newAlarm              = Jauns signāls
+editAlarm             = Rediģēt signālu
+
+pause      = Pauzēt
+resume     = Atsākt
+lap        = Aplis
+lap-number = {{n}}. aplis
+
+delete        = Dzēst
+time          = Time
+snooze-label  = Snooze
+snooze-button = Snooze
+repeat        = Atkartot
+vibrate       = Vibrēt
+close         = Aizvērt
+save          = Saglabāt
+done          = Paveikts
+
+closeButton.ariaLabel    = Aizvērt
+newAlarmButton.ariaLabel = Jauns signāls
+
+# The label for a slider that allows the user to change
+# the System Alarm Volume for all clock alarms.
+alarm-volume-label = System Alarm Volume
+
+sound   = Skaņa
+noSound = Bez skaņas
+
+everyday = Katru dienu
+weekdays = Darbadienās
+weekends = Brīvdienās
+never    = Nekad
+
+vibrateOn = Iesl.
+vibrateOff = Izsl.
+
+plusMinute = +1 Min
+
+# see http://www.cplusplus.com/reference/clibrary/ctime/strftime/
+dateFormat = %A, %B %e
+
+countdown-lessThanAnHour = The alarm is set for <strong>{{minutes}}</strong> from now.
+countdown-moreThanAnHour = The alarm is set for {{hours}} {{minutes}} from now.
+countdown-moreThanADay = The alarm is set for {{days}} {{hours}} from now.
+
+nMinutes={[ plural(n) ]}
+nMinutes[zero]  = mazāk par minūti
+nMinutes[one]   = viena minūte
+nMinutes[two] = {{n}} minūtes
+nMinutes[few] = {{n}} minutes
+nMinutes[many] = {{n}} minutes
+nMinutes[other] = {{n}} minutes
+
+nHours={[ plural(n) ]}
+nHours[zero] =
+nHours[one] = <strong>{{n}} stunda</strong>
+nHours[two] = <strong>{{n}} stundas</strong>
+nHours[few] = <strong>{{n}} hours</strong>
+nHours[many] = <strong>{{n}} hours</strong>
+nHours[other] = <strong>{{n}} hours</strong>
+
+nAndRemainHours={[ plural(n) ]}
+nAndRemainHours[zero] =
+nAndRemainHours[one] = un <strong>{{n}} stunda</strong>
+nAndRemainHours[two] = un <strong>{{n}} stundas</strong>
+nAndRemainHours[few] = and <strong>{{n}} hours</strong>
+nAndRemainHours[many] = and <strong>{{n}} hours</strong>
+nAndRemainHours[other] = and <strong>{{n}} hours</strong>
+
+nRemainDays={[ plural(n) ]}
+nRemainDays[zero] =
+nRemainDays[one] = <strong>{{n}} diena</strong>
+nRemainDays[two] = <strong>{{n}} dienas</strong>
+nRemainDays[few] = <strong>{{n}} days</strong>
+nRemainDays[many] = <strong>{{n}} days</strong>
+nRemainDays[other] = <strong>{{n}} days</strong>
+
+nRemainMinutes={[ plural(n) ]}
+nRemainMinutes[zero]  =
+nRemainMinutes[one]   = un <strong>{{n}} minūte</strong>
+nRemainMinutes[two] = un <strong>{{n}} minūtes</strong>
+nRemainMinutes[few] = and <strong>{{n}} minutes</strong>
+nRemainMinutes[many] = and <strong>{{n}} minutes</strong>
+nRemainMinutes[other] = and <strong>{{n}} minutes</strong>
+
+nSpinnerSeconds={[ plural(n) ]}
+nSpinnerSeconds[zero]  = zero seconds
+nSpinnerSeconds[one]   = one second
+nSpinnerSeconds[two] = {{n}} seconds
+nSpinnerSeconds[few] = {{n}} seconds
+nSpinnerSeconds[many] = {{n}} seconds
+nSpinnerSeconds[other] = {{n}} seconds
+
+nSpinnerMinutes={[ plural(n) ]}
+nSpinnerMinutes[zero]  = zero minutes
+nSpinnerMinutes[one]   = viena minūte
+nSpinnerMinutes[two] = {{n}} minutes
+nSpinnerMinutes[few] = {{n}} minutes
+nSpinnerMinutes[many] = {{n}} minutes
+nSpinnerMinutes[other] = {{n}} minutes
+
+nSpinnerHours={[ plural(n) ]}
+nSpinnerHours[zero] = zero hours
+nSpinnerHours[one] = {{n}} stunda
+nSpinnerHours[two] = {{n}} hours
+nSpinnerHours[few] = {{n}} hours
+nSpinnerHours[many] = {{n}} hours
+nSpinnerHours[other] = {{n}} hours

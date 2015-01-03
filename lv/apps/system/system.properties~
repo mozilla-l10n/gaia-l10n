@@ -549,7 +549,7 @@ search-or-enter-address.placeholder=Meklējiet vai ievadiet adresi
 # Hotspot
 noSIMCardInHotspot=SIM card is absent or inserted incorrectly, so turn off hotspot
 noHopspotWhenAPMisOn=Turn off airplane mode to use Wi-Fi hotspot
-apmActivated=Lidojuma režīms ir ieslēgts
+apmActivated=Airplane mode activated
 
 # Browser Context Menu
 open-in-new-tab=Atvērt saiti jauna cilnī
