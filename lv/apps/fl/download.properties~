@@ -41,7 +41,7 @@ locked-content-advisory = {{vendor}} ir bloķējies šo datni lai to nevarēt da
 
 # This version is like the above, but used when we don't know the name of
 # the vendor.
-locked-content-advisory-generic = Pārdevējs ir bloķējies šo datni lai to nevarēt dalīt ar citiem vai to pārsūtīt uz jaunu ierīci.
+locked-content-advisory-generic = The seller has locked this media file so that it cannot be shared with others or transferred to a new device.
 
 download-confirmation-name = Nosaukums
 download-confirmation-type = Veids

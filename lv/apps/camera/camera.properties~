@@ -7,7 +7,7 @@ error-saving-text  = An error prevented Camera from saving the picture.
 error-recording-title = Video not recorded
 error-recording-text  = An error prevented Camera from recording the video.
 
-error-video-file-path-title = Video nav ierakstīta
+error-video-file-path-title = Video not recorded
 error-video-file-path-text  = Error creating video file path.
 
 nocard2-title = No memory card found
@@ -23,8 +23,8 @@ retake-button = Retake
 select-button = Izvēlēties
 close-button  = Aizvērt
 
-delete-photo? = Vai dzēst fotogrāfiju?
-delete-video? = Vai dzēst video?
+delete-photo? = Delete photo?
+delete-video? = Delete video?
 cancel = Atcelt
 delete = Dzēst
 

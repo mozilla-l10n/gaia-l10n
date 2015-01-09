@@ -204,7 +204,7 @@ afterFbImport   = You can import and edit Facebook friends anytime in Contacts s
 #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 firefox-accounts = Firefox Konti
 fxa-upsell.innerHTML = A Firefox Account lets you find a lost phone and buy apps from the Firefox Marketplace.
-fxa-create-account-or-sign-in = Izveidot kontu vai Ieiet
+fxa-create-account-or-sign-in = Create Account or Sign In
 fxa-email-sent = A verification link has been sent to {{email}}
 # Copy borrowed fxa-logged-in-text string in settings app
 fxa-signed-in = Iegājis kā {{email}}
