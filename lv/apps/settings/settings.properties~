@@ -17,9 +17,9 @@ skip=Skip
 pair=Pair
 done=Paveikts
 set=Set
-notNow=Not now
-turnOn=Turn ON
-selectASIMCard=Select a SIM card
+notNow=Ne tagad
+turnOn=Ieslēgt
+selectASIMCard=Izvēlieties SIM karti
 sim1=SIM 1
 sim2=SIM 2
 unavailable=Nav pieejams
@@ -29,9 +29,9 @@ unavailable=Nav pieejams
 # Connectivity
 #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 
-networkAndConnectivity=Network & Connectivity
+networkAndConnectivity=Tīkls un Savienojamība
 airplaneMode=Airplane mode
-geolocation=Geolocation
+geolocation=Lokalizācija
 
 # Connectivity :: Wi-Fi
 wifi=Wi-Fi
@@ -100,27 +100,27 @@ import-certificate-msg=Notice: If you need to import new certificates, please go
 identity=Identifier
 password=Parole
 showPassword=Radīt paroli
-networkNotification=Network notification
+networkNotification=Tīkla notifikācija
 networkNotification-expl=Notify me when an open network is available
 macAddress=MAC Adrese
 # os = OS version. For example: 2.0.
 # The whole string may look like this: "Firefox OS 2.0"
 deviceInfo_software = {{ brandShortName }} {{ os }}
 macUnavailable=Nav pieejams
-noNetworksFound=No networks found
-noKnownNetworks=No known networks
+noNetworksFound=Netika atrasts neviens tīkls
+noKnownNetworks=Nav zināmu tīklu
 edit=Rediģēt
-certificateList=Certificate list
-noCertificate=No imported certificate
-deleteCertificate=Delete certificate
-importCertificate=Import certificate
-selectCertificateFile=Select certificate file
+certificateList=Sertifikātu saraksts
+noCertificate=Nav importētu sertifikātu
+deleteCertificate=Dzēst sertifikātu
+importCertificate=Importēt sertifikātu
+selectCertificateFile=Izvēlieties sertifikāta datni
 enterCertificateNickname=Enter certificate nick name
-nickname=Nick name
+nickname=Iesauka
 enter-certificate-name-msg=You can change the nick name or keep the default name.
 certificate-deletion-failed=Certificate deletion failed
 certificate-deletion-failed-description=This may be due to a storage issue, for example.
-certificate-import-failed=Certificate import failed
+certificate-import-failed=Sertifikāta imports neizdevās
 certificate-import-failed-description=This may be due to a damaged certificate file, for example.
 
 # Connectivity :: Wi-Fi :: WPS (Wi-Fi Protected Setup)
@@ -132,7 +132,7 @@ wpsMessage=Pieslēgties ar WPS
 # in headers, you can use a shorter string here.
 wpsMessage-header={{wpsMessage}}
 fullStatus-wps-inprogress = WPS is in progress…
-fullStatus-wps-canceled   = WPS was canceled
+fullStatus-wps-canceled   = WPS tika atcelts
 fullStatus-wps-timedout   = WPS timed out
 fullStatus-wps-failed-error = WPS failed [{{error}}]
 fullStatus-wps-overlapped = Another WPS PBC AP was found
@@ -144,12 +144,12 @@ wpsApPinLabel=AP PIN connection
 wpsPinDescription=PIN is 4 or 8 digits
 wpsPinInput=Input {{pin}} to an opposite device
 wpsPinAps=Select an opposite device
-wpsAnyAp=Any
+wpsAnyAp=Jebkurš
 wpsCancelMessage=Atcelt WPS
 wpsCancelFailedMessageError=Failed to cancel WPS [{{error}}]
 
 # Connectivity :: Call
-callSettings=Call Settings
+callSettings=Zvanu iestatījumi
 # LOCALIZATION NOTE (callSettings-header): if you leave the original
 # en-US value "{{callSettings}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "callSettings".
@@ -166,42 +166,42 @@ voiceMail=Voicemail
 # in headers, you can use a shorter string here.
 voiceMail-header={{voiceMail}}
 voiceMail-number=Voicemail Number
-voiceMail-number-notSet=Not set
+voiceMail-number-notSet=Nav uzstādīts
 voicePrivacyMode=Voice privacy mode
 callWaiting=Call waiting
 confirmCallWaitingTitle=Unable to confirm call waiting preferences
 confirmCallWaitingDesc=The device is currently unable to communicate with the carrier. Try setting the preference again.
-callForwarding=Call forwarding
+callForwarding=Zvanu pārsūtīšana
 # LOCALIZATION NOTE (callForwarding-header): if you leave the original
 # en-US value "{{callForwarding}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "callForwarding".
 # If you need to adapt your localization to the reduced space available
 # in headers, you can use a shorter string here.
 callForwarding-header={{callForwarding}}
-callForwardingForward=Forward
-callForwardingUnconditional=Always forward
-callForwardingUnconditionalShort=Always
-callForwardingMobileBusy=Forward when busy
-callForwardingMobileBusyShort=When busy
+callForwardingForward=Pārsūtīt
+callForwardingUnconditional=Vienmēr pārsūtīt
+callForwardingUnconditionalShort=Vienmēr
+callForwardingMobileBusy=Pārsūtīt kad aizņemts
+callForwardingMobileBusyShort=Kad aizņemts
 callForwardingNoReply=Forward when unanswered
-callForwardingNoReplyShort=When unanswered
-callForwardingNotReachable=Forward when unreachable
-callForwardingNotReachableShort=When unreachable
+callForwardingNoReplyShort=Kad neatbildēts
+callForwardingNotReachable=Pārsūtīt kad nesasniedzams
+callForwardingNotReachableShort=Kad nesasniedzams
 callForwardingForwardingVoiceToNumber=Voice calls to {{number}}
-callForwardingNotForwarding=Disabled
+callForwardingNotForwarding=Izslēgts
 callForwardingConfirmTitle=Call forwarding confirmation message
-cf-alwaysUseThisNumber=Always use this number
+cf-alwaysUseThisNumber=Vienmēr izmantot šo numuru
 cf-numberWhenUnreachable=Number when unreachable
 cf-numberWhenUnanswered=Number when unanswered
-cf-numberWhenBusy=Number when busy
+cf-numberWhenBusy=Numurs kad aizņemts
 callForwardingInvalidNumberError=This phone number is invalid.
 callForwardingSetSuccess=Operation successfully set.
 callForwardingSetForbidden=Your operator does not support that operation.
 callForwardingSetError=Call settings error.
 callerId=Caller ID
 callerId-default=Network default
-callerId-hide=Hide number
-callerId-show=Show number
+callerId-hide=Slēpt numru
+callerId-show=Rādīt numuru
 fdn=Fixed dialing numbers
 fdnSettings=Fixed dialing numbers
 # LOCALIZATION NOTE (fdnSettings-header): if you leave the original
@@ -271,8 +271,8 @@ emergencyAlert=Emergency Alert
 messagingInformation = Information
 # LOCALIZATION NOTE (messagingSMSC): SMSC stands for Short Message Service Center
 messaging-SMSC = Service Center
-messaging-sim-settings = SIM {{index}} Settings
-unknown-SMSC = Info not available
+messaging-sim-settings = {{index}}. SIM iestatījumi
+unknown-SMSC = Informācija nav pieejama
 
 # Connectivity :: Cellular & Data
 cellularAndData=Cellular & Data
@@ -286,7 +286,7 @@ dataNetwork=Pārvadātājs
 dataConnectivity=Data
 dataConnection=Data connection
 dataRoaming=Data roaming
-networkOperator=Network operator
+networkOperator=Tīkla operators 
 # LOCALIZATION NOTE (networkOperator-header): if you leave the original
 # en-US value "{{networkOperator}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "networkOperator".
@@ -296,11 +296,11 @@ networkOperator-header={{networkOperator}}
 availableOperators=Network operators in the area
 preferredNetworkTypeAlertTitle = Preferred network type
 preferredNetworkTypeAlertErrorMessage = Network type could not be set
-operator-networkType=Network type
-operator-networkType-auto=Automatiski
+operator-networkType=Tīkla veids
+operator-networkType-auto=Automātiski
 operator-networkType-prefer3G=3G preferred
-operator-networkType-2G=2G tikai
-operator-networkType-3G=3G tikai
+operator-networkType-2G=tikai 2G
+operator-networkType-3G=tikai 3G
 # MULTISTACK
 operator-networkType-GSM=GSM
 operator-networkType-WCDMA=WCDMA
@@ -316,7 +316,7 @@ operator-networkType-auto-LTE-CDMA-EVDO=Auto (LTE/CDMA/EVDO)
 operator-networkType-auto-WCDMA-GSM-CDMA-EVDO=Auto (WCDMA/GSM/CDMA/EVDO)
 
 operator-autoSelect=Automatic selection
-operator-networkSelect-auto=Automatic
+operator-networkSelect-auto=Automātiski
 operator-networkSelect-manual=Manual
 operator-turnAutoSelectOff=Turn automatic selection off to view available network operators.
 operator-status-connecting       = Pieslēdzas…
@@ -334,7 +334,7 @@ apnSettings = APN iestatījumi
 # If you need to adapt your localization to the reduced space available
 # in headers, you can use a shorter string here.
 apnSettings-header = {{apnSettings}}
-dataSettings = Data iestatījumi
+dataSettings = Datu iestatījumi
 # LOCALIZATION NOTE (dataSettings-header): if you leave the original
 # en-US value "{{dataSettings}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "dataSettings".
@@ -377,14 +377,14 @@ httpProxyHost=HTTP proxy host
 httpProxyPort=HTTP proxy port
 custom=(custom settings)
 apn-authType=Authentication
-apn-authType-notDefined = Not defined
-apn-authType-none       = None
+apn-authType-notDefined = Nav noteikts
+apn-authType-none       = Neviens
 apn-authType-pap        = PAP
 apn-authType-chap       = CHAP
 apn-authType-papOrChap  = PAP or CHAP
 apn-protocol = Protocol
 apn-roaming-protocol = Roaming protocol
-apn-protocol-notDefined = Not defined
+apn-protocol-notDefined = Nav noteikts
 apn-protocol-ip = IPv4
 apn-protocol-ipv6 = IPv6
 apn-protocol-ipv4v6 = IPv4/IPv6
@@ -397,13 +397,13 @@ change-apn-warning-message=Depending on your service agreement, changing your AP
 change-apn-warning-question=Do you want to proceed?
 reset-apn-warning-title=Reset to Default
 reset-apn-warning-message=This resets the settings to default values. This cannot be undone.
-state-unknown = Unknown state
-state-available = Available
-state-connected = Connected
-state-current = Connected
-state-forbidden = Forbidden
+state-unknown = Nezināms stāvoklis
+state-available = Pieejams
+state-connected = Pieslēgts
+state-current = Pieslēgts
+state-forbidden = Aizliegts
 delete-apn-confirm = Delete this APN?
-delete-apn = Delete
+delete-apn = Dzēst
 add-apn = Add New APN
 reset-apn = Reset to Default
 apnSettings-reset = APN settings reset
@@ -418,8 +418,8 @@ bluetooth = Bluetooth
 bluetooth-header = {{bluetooth}}
 bluetooth-enable-msg = Turn Bluetooth on to view devices in the area.
 bluetooth-paired-devices   = Paired devices
-bluetooth-devices-in-area  = Devices in the area
-bluetooth-visible-to-all = Visible to all
+bluetooth-devices-in-area  = Ierīces tuvumā
+bluetooth-visible-to-all = Redzams visiem
 bluetooth-name-maxlength-alert = Your device name exceeds {{length}} characters. Please retry again.
 bluetooth-address = Bluetooth Address
 bluetooth-address-unavailable = Not available
@@ -436,19 +436,19 @@ device-status-tap-connect = Tap to connect
 device-status-pairing     = Pairing with device…
 device-status-waiting     = Waiting for other device…
 device-status-paired      = Paired
-device-status-connecting  = Connecting…
-device-status-connected   = Connected
+device-status-connecting  = Pieslēdzas…
+device-status-connected   = Pieslēdzies
 device-status-connected-media       = Connected to media audio
 device-option-unpair      = Unpair
-device-option-confirm     = Confirm
-device-option-unpair-confirmation = Confirmation
+device-option-confirm     = Apstiprināt
+device-option-unpair-confirmation = Apstiprinājums
 device-option-unpair-device = Unpair device?
-device-option-connect     = Connect
-device-option-disconnect  = Disconnect
+device-option-connect     = Pieslēgt
+device-option-disconnect  = Atslēgt
 search-for-device   = Searching for devices…
 search-device       = Search for devices
-rename-device       = Rename my device
-unnamed-device      = Unknown device
+rename-device       = Pārsaukt manu ierīci
+unnamed-device      = Nezināma ierīce
 change-phone-name-desc = Change the name of your device as it appears in your computer
 bluetooth-new-name  = New name
 error-pair-title      = Unable to pair devices
@@ -475,14 +475,14 @@ internetSharing-usb=USB
 internetSharing-wifi=Wi-Fi
 wifi-hotspot=Wi-Fi hotspot
 wifi-name=Name
-wifi-password=Password
-wifi-security=Security
+wifi-password=Parole
+wifi-security=Drošība
 usb-tethering=USB tethering
 hotspotSettings=Hotspot settings
-wifi-auth-username=Username
-wifi-auth-password=Password
-wifi-join-username=Username
-wifi-join-password=Password
+wifi-auth-username=Lietotājvārds
+wifi-auth-password=Parole
+wifi-join-username=Lietotājvārds
+wifi-join-password=Parole
 # LOCALIZATION NOTE (hotspotSettings-header): if you leave the original
 # en-US value "{{hotspotSettings}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "hotspotSettings".
@@ -490,7 +490,7 @@ wifi-join-password=Password
 # in headers, you can use a shorter string here.
 hotspotSettings-header={{hotspotSettings}}
 ssid-name=SSID network name
-hotspot-open=open
+hotspot-open=atvērts
 hotspot-wpa-psk=WPA (TKIP)
 hotspot-wpa2-psk=WPA2 (AES)
 hotspot-password-desc=The password must have at least 8 characters.
@@ -503,7 +503,7 @@ hotspot-password-desc=The password must have at least 8 characters.
 personalization=Personalization
 
 # Personalization :: Sound
-sound=Sound
+sound=Skaņa
 # LOCALIZATION NOTE (sound-header): if you leave the original
 # en-US value "{{sound}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "sound".
@@ -521,16 +521,16 @@ alerts=Alerts
 manage-tones=Manage Tones
 other-sounds=Other sounds
 unlock-screen=Unlock screen
-camera=Camera
-sent-message=Sent Message
+camera=Kamera
+sent-message=Sūtīt vēstuli
 alarm-sound=Alarm
 ringtone-and-notification-sound=Ringtones & Notifications
-media-sound=Media
-saving-tone=Saving…
+media-sound=Mēdiji
+saving-tone=Saglabā…
 no-ringtone-app=We were unable to find a ringtone app to manage ringtones!
 
 # Personalization :: Display
-display=Display
+display=Ekrāns
 # LOCALIZATION NOTE (display-header): if you leave the original
 # en-US value "{{display}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "display".
@@ -542,15 +542,15 @@ brightness-autoAdjust=Adjust automatically
 lockScreen=Lock screen
 wallpaper=Wallpaper
 screen-timeout=Screen timeout
-one-minute   =  1 minute
-two-minutes  =  2 minutes
-five-minutes =  5 minutes
-ten-minutes  = 10 minutes
+one-minute   =  1 minūte
+two-minutes  =  2 minūtes
+five-minutes =  5 minūtes
+ten-minutes  = 10 minūtes
 never=never
 lock-orientation=Lock orientation
 
 # Personalization :: Navigation
-navigation=Navigation
+navigation=Navigācija
 # LOCALIZATION NOTE (navigation-header): if you leave the original
 # en-US value "{{navigation}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "navigation".
@@ -592,7 +592,7 @@ hour-12 = 12-stundas
 hour-24 = 24-stundas
 
 # Personalization :: Language & Region
-languageAndRegion=Valoda & Reģions
+languageAndRegion=Valoda un Reģions
 language=Valoda
 # LOCALIZATION NOTE (language-header): if you leave the original
 # en-US value "{{language}}" in the following string, the localization
@@ -603,9 +603,9 @@ language-header={{language}}
 region=Reģions
 sample-format=Sample Format
 # see http://www.cplusplus.com/reference/clibrary/ctime/strftime/
-longDateFormat=%A, %B %d, %Y
+longDateFormat=%A, %d. %B, %Y
 
-# Personalization :: Sim cards manager
+# Personalization :: SIM karšu pārvaldnieks
 simManager=SIM pārvaldnieks
 # LOCALIZATION NOTE (simManager-header): if you leave the original
 # en-US value "{{simManager}}" in the following string, the localization
@@ -615,16 +615,16 @@ simManager=SIM pārvaldnieks
 simManager-header={{simManager}}
 
 simSettings=SIM Iestatījumi
-sim-manager-outgoing-calls=Outgoing Calls
+sim-manager-outgoing-calls=Izejošie zvani
 sim-manager-outgoing-call-desc=Calls will be sent from
 sim-manager-outgoing-messages=Outgoing Messages
 sim-manager-outgoing-messages-desc=SMS will be sent from
 sim-manager-outgoing-data=Data
 sim-manager-outgoing-data-description=Data service network and Marketplace payments
-sim-manager-always-ask=Always ask
+sim-manager-always-ask=Vienmēr jautāt
 
 sim-pin-locked=SIM PIN locked
-no-operator=No operator
+no-operator=Nav operatora
 cant-disable-simcard-alert=At least one SIM should be activated at a time
 disable-simcard-confirm=SIM {{disableCardIndex}} can’t receive any calls and messages. Outgoing calls and outgoing messages which are set to SIM {{disableCardIndex}} will be disabled.
 change-outgoing-data-confirm=The current data transfer will be suspended. Continue anyway?
@@ -637,10 +637,10 @@ vertical-homescreen-icon-layout=Icon Layout
 vertical-homescreen-three-columns=Three Columns
 vertical-homescreen-four-columns=Four Columns
 notice=Notice
-search=Search
+search=Meklēt
 search-header=Meklēt
 search-engine=Search Engine
-search-suggestions=Search Suggestions
+search-suggestions=Meklēšana ieteikumi
 search-suggestions-description=The characters you type when entering a search are sent to multiple search providers and will be used to send you search suggestions. Additional data charges may apply when using this feature.
 
 # Personalization :: Homescreens
@@ -669,7 +669,7 @@ numberKeyboardLayouts=Ciparu izkārtojumi
 optionKeyboardLayouts=Option layouts
 keypad=Keypad
 dialpad=Dial Pad
-selectKeyboards=Select Keyboards
+selectKeyboards=Izvēlēties tastatūras
 
 # LOCALIZATION NOTE (selectKeyboards-header): if you leave the original
 # en-US value "{{selectKeyboards}}" in the following string, the localization
@@ -709,7 +709,7 @@ fxa-invitation=Izveidot kontu vai ieiet
 # Panel: logged in, unverified
 fxa-confirm-account=Apstipriniet savu Kontu
 fxa-verification-email-sent-msg=Mēs jums aizsūtīsim epastu uz: {{email}}
-fxa-please-verify=Click the verification link in your email to confirm your account.
+fxa-please-verify=Spiediet uz apstiprinājuma saiti jūsu epastā lai apstiprināt savu kontu.
 fxa-cancel-confirmation=Atcelt Konta Apstiprināšana
 fxa-resend-alert=A verification link has been sent to {{email}}.
 # LOCALIZATION NOTE (fxa-dont-see-email): the "{{resend}}" placeholder
@@ -720,10 +720,10 @@ fxa-resend=Sūtīt vēlreiz
 
 # Panel: logged in, verified
 fxa-about=Par
-fxa-logged-in-text=Signed in as {{email}}
-fxa-signed-in-header=Signed In
+fxa-logged-in-text=Iegājis kā {{email}}
+fxa-signed-in-header=Iegājis
 fxa-marketplace-app=Marketplace
-fxa-find-my-device-app=Atrast Manu Ierīci
+fxa-find-my-device-app=Atrast manu ierīci
 fxa-options=Opcijas
 fxa-sign-out=Iziet
 
@@ -768,7 +768,7 @@ simSecurity=SIM Drošība
 simSecurity-header={{simSecurity}}
 
 # Security :: App permissions
-appPermissions=App permissions
+appPermissions=Aplikāciju atļaujas
 # LOCALIZATION NOTE (appPermissions-header): if you leave the original
 # en-US value "{{appPermissions}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "appPermissions".
@@ -781,12 +781,12 @@ revoke=Revoke
 ask=Jautāt
 deny=Deny
 allow=Grant
-uninstallApp=Uninstall app
+uninstallApp=Noņemt aplikāciju
 
 # Security :: Phone Lock
 phone=Telefons
-messages=Messages
-vibrate=Vibrate
+messages=Īsziņas
+vibrate=Vibrēt
 ring=Ring
 change=Mainīt
 create=Izveidot
@@ -800,7 +800,7 @@ incorrect-passcode=Passcode is incorrect
 passcode-doesnt-match=Passcode doesn’t match. Try again.
 confirm-passcode=Confirm passcode
 immediately=Immediately
-after-one-minute=After 1 minute
+after-one-minute=Pēc minūtes
 after-five-minutes=After 5 minutes
 after-fifteen-minutes=After 15 minutes
 after-thirty-minutes=After 30 minutes
@@ -828,7 +828,7 @@ puk2Title=Ievadiet PUK2 kodu
 newpinTitle=Jauns PIN
 inputCodeRetriesLeft={[ plural(n) ]}
 inputCodeRetriesLeft[one]=Pēdējais mēģinājums.
-inputCodeRetriesLeft[two]={{n}} tries left.
+inputCodeRetriesLeft[two]={{n}} mēģinājumi atlikuši.
 inputCodeRetriesLeft[few]={{n}} tries left.
 inputCodeRetriesLeft[many]={{n}} tries left.
 inputCodeRetriesLeft[other]={{n}} tries left.
@@ -877,7 +877,7 @@ doNotTrack-dd1=When you turn on Do Not Track, your device tells every website an
 doNotTrack-dd2=Turning on Do Not Track will not affect your ability to sign in to websites nor cause your device to forget your private information, such as the contents of shopping carts, location information or sign-in information.
 
 # Security :: Browsing Privacy
-browsingPrivacy=Pārlūkošanas Privātums
+browsingPrivacy=Pārlūkošanas privātums
 # LOCALIZATION NOTE (browsingPrivacy-header): if you leave the original
 # en-US value "{{browsingPrivacy}}" in the following string, the localization
 # will be automatically picked from the existing string with ID
@@ -885,8 +885,8 @@ browsingPrivacy=Pārlūkošanas Privātums
 # available in headers, you can use a shorter string here.
 browsingPrivacy-header={{browsingPrivacy}}
 confirm-clear-title=Apstiprinājums
-clear-browsing-history=Clear browsing history
-confirm-clear-browsing-history=Clear browsing history?
+clear-browsing-history=Dzēst pārlūkošanas vēsturi
+confirm-clear-browsing-history=Vai dzēst pārlūkošanas vēsturi?
 clear-cookies-and-stored-data=Clear cookies and stored data
 confirm-clear-cookies-and-stored-data=Clear cookies and other data stored by sites on this device?
 clear-boomarks-data=Clear bookmarks data
@@ -899,12 +899,12 @@ clear=Attīrīt
 # Storage
 #=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#=#
 
-storage=Storage
-enableUSBStorage1=USB storage
+storage=Krātuve
+enableUSBStorage1=USB krātuve
 
 # Storage :: Application storage
-umsUnplugToDisable=Unplug USB cable to disable
-appStorage=Application storage
+umsUnplugToDisable=Atvienojiet USB kabeli lai izslēgt
+appStorage=Aplikāciju krātuve
 # LOCALIZATION NOTE (appStorage-header): if you leave the original
 # en-US value "{{appStorage}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "appStorage".
@@ -936,29 +936,29 @@ protocol-mtp=Media transfer protocol (MTP)
 protocol-ums=USB mass Storage (UMS)
 
 # Storage :: Media storage
-mediaStorage=Media storage
+mediaStorage=Mēdiju krātuve
 # LOCALIZATION NOTE (mediaStorage-header): if you leave the original
 # en-US value "{{mediaStorage}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "mediaStorage".
 # If you need to adapt your localization to the reduced space available
 # in headers, you can use a shorter string here.
 mediaStorage-header={{mediaStorage}}
-storage-name-internal  = Internal Storage
+storage-name-internal  = Iekšējā krātuve
 storage-name-external-0  = SD Card Storage
 storage-name-external-1  = SD Card Storage 2
 short-storage-name-internal  = Internal
-short-storage-name-external-0  = SD Card
-short-storage-name-external-1  = SD Card 2
-music-space=Music
-pictures-space=Pictures
-videos-space=Movies
+short-storage-name-external-0  = SD karte
+short-storage-name-external-1  = 2. SD karte
+music-space=Mūzika
+pictures-space=Attēli
+videos-space=Filmas
 left-space=Space left
 free-space=Space left
 total-space=Total space
-size-not-available=Not available
+size-not-available=Nav pieejams
 no-storage=No storage found
 advanced=Advanced
-ums-warning-title=Enable USB storage?
+ums-warning-title=Vai ieslēgt USB krātuvi?
 default-media-location=Default media location
 default-media-location-msg=Choose where photos, videos, music and downloads are stored by default.
 change-default-media-location-confirmation=Changing the default media storage location will affect where all media will be saved by default. Existing data will remain in its current location. Do you want to proceed?
@@ -1004,7 +1004,7 @@ downloads-header={{downloads}}
 unknown-phoneNumber=Nezināms
 unknown-phoneNumber-sim=SIM {{index}}: Nezināms
 gitInfo=Git Commit Info
-developer=Izstrādātājs
+developer=Izstrādātājiem
 # LOCALIZATION NOTE (developer-header): if you leave the original
 # en-US value "{{developer}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "developer".
@@ -1027,8 +1027,8 @@ hud-devtools=Izstrādātāja rīki
 hud-devtools-header={{hud-devtools}}
 hud-logging=Log changes in ADB
 hud-system=Show system HUD
-hud-problems=Problems
-hud-warnings=Warnings
+hud-problems=Problēmas
+hud-warnings=Brīdinājumi
 hud-errors=Kļūdas
 hud-security=Security issues
 hud-performance=Performance
@@ -1039,7 +1039,7 @@ hud-fps=Frames per second
 hud-ttl=Time to load
 hud-memory=Atmiņa
 hud-uss=Unique Set Size
-hud-appmemory=App memory
+hud-appmemory=Aplikācijas izmērs
 hud-jsobjects=JS objects
 hud-jsstrings=JS strings
 hud-jsother=JS other
@@ -1047,10 +1047,10 @@ hud-dom=DOM
 hud-style=Stils
 hud-other=Citi
 software=Programmatūra
-devSettings=Izstrādātāja Iestatījumi
+devSettings=Izstrādātāja iestatījumi
 debug=Atkļūdot
-developer-menu=Developer Menu
-developer-tools=Izstrādātāja Riki
+developer-menu=Izstrādātāju izvēlne
+developer-tools=Izstrādātāja rīki
 graphics=Grafikas
 hardware-composer=Hardware composer
 paint-flashing=Flash repainted area
@@ -1068,8 +1068,8 @@ remote-debugging-usb=Debugging via USB
 dev-tools-wifi=DevTools via Wi-Fi
 dev-tools-qps=Pseudo-localization
 debugger-disabled=Izslēgts
-debugger-adb-only=tikai uz ADB
-debugger-adb-and-devtools=uz ADB un {{developer-tools}}
+debugger-adb-only=Tikai caur ADB
+debugger-adb-and-devtools=Caur ADB un {{developer-tools}}
 wifi-debugging=Wi-Fi output in ADB
 bluetooth-debugging=Bluetooth output in ADB
 nfc-debugging=NFC output in ADB
@@ -1086,7 +1086,7 @@ platform_version=Platform Version
 build-id=Build Identifier
 update-channel=Atjauninājumu Kanāls
 update-url=Atjauninājumu URL
-last-updated=Last Updated
+last-updated=Pēdējo reizi atjaunināts
 more-info=Vairāk Informācijas
 # LOCALIZATION NOTE (more-info-header): if you leave the original
 # en-US value "{{more-info}}" in the following string, the localization
@@ -1095,18 +1095,18 @@ more-info=Vairāk Informācijas
 # in headers, you can use a shorter string here.
 more-info-header={{more-info}}
 softwareUpdates=Programmatūras Atjauninājumi
-check-update-daily     = Daily
-check-update-weekly    = Weekly
-check-update-monthly   = Monthly
-check-for-updates      = Check for Updates
-check-update-now       = Check Now
+check-update-daily     = Ik dienu
+check-update-weekly    = Ik nedēļu
+check-update-monthly   = Ik mēnesi
+check-for-updates      = Meklēt atjauninājumus
+check-update-now       = Meklēt tagad
 update-status          = Update status
-checking-for-update    = Checking for updates…
-no-updates             = No updates were found
+checking-for-update    = Meklē atjauninājumus…
+no-updates             = Nav pieejami jauni atjauninājumi
 retry-when-online      = Network is offline. Will check again when the network is online.
 already-latest-version = This is already the latest version of {{brandShortName}}
 check-error            = There was an error when checking for updates.
-aboutBrowserOS  = About {{brandShortName}}
+aboutBrowserOS  = Par {{brandShortName}}
 browser-os-desc = {{brandShortName}} is the free and open source operating system from Mozilla. Our mission is to promote openness, innovation and opportunity by keeping the power of the Web in your hands.
 learn-more=Uzzināt Vairāk
 reset-head=Reset
@@ -1138,7 +1138,7 @@ open-source-notices = Open Source Notices
 # If you need to adapt your localization to the reduced space available
 # in headers, you can use a shorter string here.
 open-source-notices-header = {{open-source-notices}}
-obtaining-source-code = Obtaining Source Code
+obtaining-source-code = Iegūt pirmkodu
 # LOCALIZATION NOTE (obtaining-source-code-header): if you leave the original
 # en-US value "{{obtaining-source-code}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "obtaining-source-code".
@@ -1147,7 +1147,7 @@ obtaining-source-code = Obtaining Source Code
 obtaining-source-code-header = {{obtaining-source-code}}
 about-mozilla = Mozilla
 about-other   = Citi
-your-privacy = Jūsu Privātums
+your-privacy = Jūsu privātums
 # LOCALIZATION NOTE (your-privacy-header): if you leave the original
 # en-US value "{{your-privacy}}" in the following string, the localization
 # will be automatically picked from the existing string with ID "your-privacy".
@@ -1172,8 +1172,8 @@ verbose-app-permissions=Verbose app permissions
 window-management=Window management
 
 # Device :: Downloads
-downloads-edit=Edit downloads
-downloads-select-all=Select all
+downloads-edit=Rediģēt lejupielādes
+downloads-select-all=Izvēlieties visas
 downloads-deselect-all=Deselect all
 downloads-delete=Dzēst
 
@@ -1187,11 +1187,11 @@ battery=Baterija
 battery-header={{battery}}
 batteryLevel=Current level
 batteryLevel-percent-unplugged = {{level}}%
-batteryLevel-percent-charging  = {{level}}% (charging)
-batteryLevel-percent-charged   = {{level}}% (charged)
+batteryLevel-percent-charging  = {{level}}% (lādējas)
+batteryLevel-percent-charged   = {{level}}% (ir uzlādējies)
 powerSaveMode=Power save mode
-powerSave-threshold={{level}}% battery left
-turnOnAuto=Turn on automatically
+powerSave-threshold={{level}}% baterijas atliek
+turnOnAuto=Ieslēgt automātiski
 
 # Device :: Accessibility
 accessibility=Pieejamība
@@ -1213,7 +1213,7 @@ screen-reader-speech-volume = Speech Volume
 screen-reader-speech-rate = Speech Rate
 screenReader-confirm-title-start = Start Screen Reader?
 screenReader-confirm-description-start = Activating the screen reader will change the way your touch screen works. Touch anywhere to hear the item under your finger, and double tap to activate.
-screenReader-confirm-button-start = Start
+screenReader-confirm-button-start = Sākt
 screenReader-confirm-title-stop = Stop Screen Reader?
 screenReader-confirm-description-stop = Stopping the screen reader will end all speech feedback.
 screenReader-confirm-button-stop = Stop
@@ -1223,9 +1223,9 @@ colorFilter-grayscale=Grayscale
 colorFilter-contrast=Contrast
 
 # Device :: Improve Browser OS
-improveBrowserOS=Improve {{brandShortName}}
-improveBrowserOSTitle=Improve {{brandShortName}}
-sendMozillaFeedback=Send Mozilla Feedback
+improveBrowserOS=Uzlabot {{brandShortName}}
+improveBrowserOSTitle=Uzlabot {{brandShortName}}
+sendMozillaFeedback=Sūtīt atsauksmes Mozilla fondām 
 performanceAndUsageData=Performance and usage data
 sharePerformanceAndUsageData=Submit data
 crashReports=Crash reports
@@ -1273,7 +1273,7 @@ feedback-errormessage-just-sent=Sorry, the system can’t send your suggestion b
 feedback-complete-msg=Thanks for the feedback! We use it to help create better experiences in future releases of Firefox OS.
 
 # Device :: Help
-online-support=Online support:
+online-support=Tiešsaistes atbalsts:
 call-support=Call support:
 user-guide=User guide
 default-support=Please contact your local provider for support.
@@ -1288,7 +1288,7 @@ simToolkit=SIM toolkit
 # Device :: SIM toolkit - NAI (Next Action Indicator)
 stkItemsNaiSetUpCall=Set Up Call
 stkItemsNaiSendSs=Send SS
-stkItemsNaiSendUssd=Send USSD
+stkItemsNaiSendUssd=Sūtīt USSD
 stkItemsNaiSendSms=Send SMS
 stkItemsNaiSendDtmf=Send DTMF
 stkItemsNaiLaunchBrowser=Launch Browser
@@ -1307,7 +1307,7 @@ stkItemsNaiSendData=Send Data
 stkItemsNaiGetChannelStatus=Get Channel Status
 
 # Incompatible Settings :: USB Storage - USB Tethering - WiFi Tethering
-is-warning-storage-header=USB storage
+is-warning-storage-header=USB krātuve
 is-warning-tethering-header=USB tethering
 is-warning-wifi-header=Wi-Fi hotspot
 is-warning-storage-tethering-message=Enabling USB storage will disable USB tethering. Do you want to enable USB storage?

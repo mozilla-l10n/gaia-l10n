@@ -1,10 +1,10 @@
 airplaneMode=Airplane mode
 searching=Meklē…
 noNetwork=Nav tīklu
-roaming={{operator}} (Viesabonēšana)
+roaming={{operator}} (Viesabonēšanā)
 operator-info={{carrier}} {{region}}
 emergencyCallsOnly = Ārkārtas situācijas zvanus tikai
-emergencyCallsOnly-unknownSIMState         = (unknown SIM state)
+emergencyCallsOnly-unknownSIMState         = (nezināms SIM stāvoklis)
 emergencyCallsOnly-noSIM                   = (nav SIM)
 emergencyCallsOnly-pinRequired             = (nepieciešams SIM PIN)
 emergencyCallsOnly-pukRequired             = (nepieciešams SIM PUK)
