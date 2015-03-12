@@ -1,8 +1,0 @@
-# emergency call on lockscreen
-error=Kļūda
-ok=Labi
-cancel=Atcelt
-emergency-call-only=Tikai ārkārtas situācijas zvaniem
-emergency-call-error={{ number }} nav ārkārtas situāciju tālruņa numurs.
-ice-contacts-bar-text=ICE Contacts - In Case of Emergency
-ice-contacts-overlay-title=ICE kontakti
