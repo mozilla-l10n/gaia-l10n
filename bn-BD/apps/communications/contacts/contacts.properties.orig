@@ -224,7 +224,3 @@ removeField.ariaLabel = অপসারণ
 undo.ariaLabel = পূর্বাবস্থা
 
 # In Case of Emergency contacts (ICE)
-ice_contacts = ICE পরিচিতি
-edit-picture = ছবি সম্পাদন
-remove-photo = ছবি অপসারণ
-change-photo = ছবি পরিবর্তন

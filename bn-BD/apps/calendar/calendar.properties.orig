@@ -32,7 +32,6 @@ account-list-header=অ্যাকাউন্ট
 # advanced settings
 # The following string is spoken by screen readers and not shown on the
 # screen.
-advanced-settings-short-icon-button.ariaLabel=সেটিং
 advanced-settings-header=ক্যালেন্ডার সেটিং
 advanced-settings-personalization=নিজের মত সাজানো
 advanced-settings-reminders=রিমাইন্ডার
@@ -62,8 +61,6 @@ event-location.placeholder=কোথায়?
 event-description.placeholder=নোট
 
 event-is-allday=দিনব্যাপী কর্মসূচী?
-event-start-date.placeholder=আরম্ভের তারিখ
-event-start-time.placeholder=আরম্ভের সময়
 event-delete=ইভেন্ট অপসারণ
 
 # remove account
@@ -79,7 +76,6 @@ drawer-sync-icon-button.ariaLabel=সিঙ্ক
 # sync progress
 # The following strings are spoken by screen readers and not shown on the
 # screen.
-sync-progress-syncing.ariaValueText=সিঙ্ক করা হচ্ছে
 
 # sync
 sync-frequency=ক্যালেন্ডার হালনাগাদ
@@ -243,20 +239,4 @@ weekday-6-single-char = শনি
 
 # The following strings are spoken by screen readers and not shown on the
 # screen.
-past-other-month-description.ariaLabel = অন্য মাস
-future-other-month-description.ariaLabel = অন্য মাস
-icon-calendar-alarm.ariaLabel = অ্যালার্ম আছে
 calendars.ariaLabel = ক্যালেন্ডার
-location.ariaLabel = অবস্থান
-duration.ariaLabel = সময়কাল
-alarms.ariaLabel = অ্যালার্ম
-description.ariaLabel = বিবরণ
-start-date.ariaLabel = আরম্ভের তারিখ
-start-time.ariaLabel = আরম্ভের সময়
-end-date.ariaLabel = সমাপ্তির তারিখ
-during-progress-loading.ariaValueText = লোড করা হচ্ছে
-create-event.ariaLabel = ইভেন্ট তৈরি করুন
-create-all-day-event.ariaLabel = দিনব্যাপী ইভেন্ট তৈরি করুন
-event-one-day-duration.ariaLabel={{startTime}} থেকে {{endTime}} পর্যন্ত
-week-event-one-day-duration.ariaLabel={{startDate}} তারিখ {{startTime}} থেকে {{endTime}} পর্যন্ত
-event-multiple-day-duration.ariaLabel={{startDate}} তারিখ {{startTime}} টা থেকে {{endDate}} তারিখ {{endTime}} টা পর্যন্ত

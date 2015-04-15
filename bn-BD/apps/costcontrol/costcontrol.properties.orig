@@ -170,12 +170,6 @@ phone = ফোন
 loading-interface-data = ইনটারফেস ডাটা লোড হচ্ছে। কিছুক্ষণ পর পুনরায় চেষ্টা করুন।
 
 # value in the following strings is an amount of data (100 MB, 2 GB...)
-data-available2[other] = {{value}} {{unit}} রয়েছে
-over-limit={[ plural(value) ]}
-over-limit[one] = {{value}} {{unit}} সীমার অধিক
-over-limit[two] = {{value}} {{unit}} সীমার অধিক
-over-limit[few] = {{value}} {{unit}} সীমার অধিক
-over-limit[many] = {{value}} {{unit}} সীমার অধিক
 
 verbose-chart-date-format = {{em-month}} {{monthday-number}}
 
