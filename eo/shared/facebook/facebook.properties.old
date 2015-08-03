@@ -1,0 +1,96 @@
+close                  = Fermi
+import                 = Importi
+update                 = Ĝisdatigi
+fbFriends              = Amikoj de Facebook
+live-serviceName       = Outlook
+gmail-serviceName      = Gmail
+facebook-serviceName   = Amikoj de Facebook
+selectAll              = Elekti ĉiujn
+deselectAll            = Malelekti ĉiujn
+viewAll                = Vidi ĉiujn amikojn de Facebook
+viewRecommend          = Vidi nur rekomenditajn
+linkProposal           = {[ plural(numFriends) ]}
+linkProposal[zero]     = Neniu kongrua amiko. Ĉiuj estas montritaj
+linkProposal[one]      = Elekti la rekomenditan
+linkProposal[two]      = Elekti la rekomenditan
+linkProposal[few]      = Elekti la rekomenditan
+linkProposal[many]     = Elekti la rekomenditan
+linkProposal[other]    = Elekti la rekomenditan
+fbFriendsFound         = {[ plural(numFriends) ]}
+fbNoFriends            = Neniu kontakto importebla
+fbFriendsFound[zero]   = Ĉiuj viaj amikoj estas importitaj
+fbFriendsFound[one]    = Unu importebla amiko
+fbFriendsFound[two]    = {{numFriends}} importeblaj amikoj
+fbFriendsFound[few]    = {{numFriends}} importeblaj amikoj
+fbFriendsFound[many]   = {{numFriends}} importeblaj amikoj
+fbFriendsFound[other]  = {{numFriends}} importeblaj amikoj
+facebook               = Facebook
+
+# search related
+search-contact.placeholder = Serĉi
+noResults                  = Neniu kontakto trovita
+done-search                = Farita
+
+# Progress
+progressFB3ImportTitle          = Amikoj importataj kiel kontaktoj
+progressFB                      = {{current}}/{{total}}
+
+progressFB3UpdateTitle          = Amikoj ĝisdatigataj en kontaktoj
+
+# Message
+message2       = Tio povas daŭri iom da tempo
+messageLinking = Bonvolu atendi. Ni ligas vian amiko kun via kontakto.
+messageCanceling = Bonvolu atendi. Ni nuligas la nuntempan taskon.
+
+
+# Errors
+error1          = Eraro {{from}}
+error2          = Ĉu vi volas klopodi denove?
+errorProposal   = proponoj kalkulataj
+errorFriends    = amikoj ricevataj
+errorLinking    = kontakto ligata
+
+# Timeouts
+timeout1         = Tempo elĉerpita {{from}}
+timeout2         = Ĉu vi volas klopodi denove?
+timeoutProposal  = proponoj kalkulataj
+timeoutFriends   = amikoj ricevataj
+timeoutLinking   = kontaktoj ligataj
+
+# Wait
+wait1            = Bonvolu atendi
+wait2            = Tio povas daŭri iom da tempo
+waitProposal     = Bonvolu atendi. Ni kalkulas proponon.
+waitFriends      = Bonvoli atendi. Ni konektiĝas por akiri vian liston de amikoj.
+
+curtainCancel    = Nuligi
+curtainRetry     = Klopodi denove
+curtainOK        = Akcepti
+
+connectionLost       = Sen retaliro
+connectionLostMsg    = La fotoj de viaj amikoj ne estos aldonitaj al viaj kontaktoj. Ĉu tamen daŭrigi?
+yesOption            = Akcepti
+noOption             = Nuligi
+
+# Status
+friendsUpdated          = {[ plural(numFriends) ]}
+friendsUpdated[zero]    = Neniu amiko ĝisdatigita
+friendsUpdated[one]     = Unu amiko ĝisdatigita
+friendsUpdated[two]     = {{numFriends}} amikoj ĝisdatigitaj
+friendsUpdated[few]     = {{numFriends}} amikoj ĝisdatigitaj
+friendsUpdated[many]    = {{numFriends}} amikoj ĝisdatigitaj
+friendsUpdated[other]   = {{numFriends}} amikoj ĝisdatigitaj
+
+friendsMerged           = {[ plural(numDups) ]}
+friendsMerged[zero]     = Neniu duobligita amiko kunfandita
+friendsMerged[one]      = Unu duobligita amiko kunfandita
+friendsMerged[two]      = {{numDups}} amikoj kunfanditaj
+friendsMerged[few]      = {{numDups}} amikoj kunfanditaj
+friendsMerged[many]     = {{numDups}} amikoj kunfanditaj
+friendsMerged[other]    = {{numDups}} amikoj kunfanditaj
+
+# Notification relogging is needed
+notificationLogin       = Via seanco de Facebook ne estas valida. Bonvolu komenci seancon.
+
+# Error sync
+syncError               = Okazis eraro dum la spegulado de datumoj de via amiko
