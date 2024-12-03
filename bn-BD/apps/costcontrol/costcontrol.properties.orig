@@ -1,0 +1,190 @@
+# Usage
+# Note: "Usage" is the application name
+topup-confirmation-title2    = ব্যবহার
+topup-confirmation-message  = রিচার্জ নিশ্চিৎ
+topup-incorrectcode-title2   = ব্যবহার
+topup-incorrectcode-message3 = ভুল টপ-আপ কোড দেওয়া হয়েছে।
+
+updating  = হালনাগাদ করা হচ্ছে
+updating-ellipsis = হালনাগাদ করা হচ্ছে...
+yesterday = গতকাল
+today     = আজ
+never     = কখনো নয়
+
+magnitude = {{value}} {{unit}}
+currency = {{currency}}{{value}}
+
+# FTE Widget
+widget = ব্যবহার প্রদর্শনকারী উইজেট
+widget-authed-sim-heading = {{provider}} সিম প্রবেশ করান হয়েছে
+widget-authed-sim-meta = আপনার ফোন এবং ইন্টারনেট ব্যবহার ট্র্যাক করতে ট্যাপ করুন।
+widget-nonauthed-sim-heading = নতুন SIM প্রবেশ করানো হয়েছে
+widget-nonauthed-sim-meta = ইন্টারনেট ব্যবহার ট্র্যাক করতে ট্যাপ করুন।
+widget-airplane-mode-heading = এরোপ্লেন মোড
+widget-airplane-mode-meta = ব্যবহার সক্রিয় করতে দয়া করে এরোপ্লেন মোড বন্ধ করুন।
+widget-no-sim2-heading = কোন সিম ব্যবহার করা হয়নি
+widget-no-sim2-meta = ব্যবহার সক্রিয় করতে একটি সিম প্রবেশ করান।
+widget-sim-locked-heading = লকড সিম কার্ড
+widget-sim-locked-meta = ব্যবহার সক্রিয় করতে আপনার সিম আনলক করুন।
+
+# FTE Welcome
+fte = প্রথম ব্যবহারের অভিজ্ঞতা
+fte-authed-sim = আপনার ফোন এবং ইন্টারনেট ব্যবহারের উপর নজর রেখে টাকা বাঁচান।
+fte-nonauthed-sim = আপনার ইন্টারনেট ব্যবহারের উপর নজর রেখে টাকা বাঁচান।
+fte-no-sim = আপনি কি পরিমাণ ইন্টারনেট ব্যবহার করছেন তার স্পষ্ট তথ্য লাভ করুন।
+# Here Usage is the name of the application
+fte-sim-info2 = ফোন এবং ইন্টারনেট ব্যবহারের তথ্যগুলো এই ফোন থেকে নেওয়া হয়। অ্যাকাউন্টের বিস্তারিত তথ্যের জন্য মোবাইল অপারেটরের সাথে যোগাযোগ করুন।
+
+# FTE steps
+fte-plantype-title = চুক্তির ধরন
+fte-plantype-hint = মোবাইল সার্ভিস প্রোভাইডার এর সাথে আপনার চুক্তির ধরন নির্বাচন করুন।
+
+fte-prepaid2-title = নিম্ন ব্যালেন্স সতর্কতা
+fte-prepaid2-hint = ক্রেডিট হারানো এড়াতে একটি সতর্কতা সেট করুন।
+
+fte-prepaid3-title = ডাটা প্রতিবেদন ও সতর্কতা
+fte-prepaid3-hint = ইন্টারনেট ব্যবহার সম্পর্কিত প্রতিবেদন দেখুন এবং অত্যাধিক ব্যবহার এড়াতে একটি সতর্কতা সেট করুন।
+
+fte-postpaid2-title = ফোন ও ডাটা প্রতিবেদন
+fte-postpaid2-hint = আপনার ফোন ও ইন্টারনেট ব্যবহারের প্রতিবেদন গ্রহন করুন।
+
+fte-postpaid3-title = ডাটা সতর্কতা
+fte-postpaid3-hint = অত্যাধিক ডাটা ব্যবহার এড়াতে একটি সতর্কতা সেট করুন।
+
+fte-onlydata2-title = ডাটা প্রতিবেদন
+fte-onlydata2-hint = আপনার ইন্টারনেট ব্যবহারের প্রতিবেদন দেখুন।
+
+fte-onlydata3-title = ডাটা সতর্কতা
+fte-onlydata3-hint = অত্যাধিক ডাটা ব্যবহার এড়াতে একটি সতর্কতা সেট করুন।
+
+# In the HTML
+phone-activity = ফোন কার্যকারিতা
+
+balance = ব্যালেন্স
+on-roaming-message2 = রোমিং: স্বয়ংক্রিয় ব্যালেন্স হালনাগাদ নাই। হাতে হালনাগাদ করার কারনে আপনাকে চার্জ করা হতে পারে।
+balance-error-message2 = ব্যালেন্স সঠিকভাবে হালনাগাদ হয়নি। নিজহাতে হালনাগাদের চেষ্টা করুন।
+airplane-mode-error-message2 = আপনার ব্যালেন্স বা টপ-আপ হালনাগাদ করতে এরোপ্লেন মোড বন্ধ করুন।
+
+disable-airplane-mode = হালনাগাদ বা টপ-আপ করতে আপনি কি এরোপ্লেন মোড নিস্ক্রিয় করতে চান?
+no-coverage-error-message2 = আপনার ব্যালেন্স অথবা টপ আপ আপডেট করতে ফোনের কাভারেজ প্রয়োজন।
+
+top-up = টপ আপ
+enter-top-up-code = টপ-আপ কোড প্রবেশ করান
+top-up-code-explanation2 = আপনার স্ক্র্যাচ কার্ড বা সরাসরি রসিদ থেকে এটি খুঁজে বের করুন।
+wait-for-confirmation = আপনি একটি নিশ্চিতকরণ বার্তা পাবেন
+incorrect-code2 = সঠিক কোড নিশ্চিত করুন এবং পুনরায় চেষ্টা করুন।
+topup-error2 = কোড প্রেরণে একটি সমস্যা হয়েছে। অনুগ্রহ করে, পুনরায় চেষ্টা করুন।
+
+application-error-title = সার্ভিস বিদ্যমান নয়
+application-error-message = আপনার কোম্পানির প্রতিনিধির সাথে যোগাযোগ করুন
+service-unavailable-title = সার্ভিস বিদ্যমান নয়
+service-unavailable-message = আপডেট বা টপ-আপ কোনটি এই মূহুর্তে সম্ভব নয়। অনুগ্রহ করে পরে চেষ্টা করুন।
+
+data-usage = ব্যবহৃত ডাটা
+update-button = হালনাগাদ
+topup-button2 = টপ আপ কোড ব্যবহার করুন
+topup-ussd-button2 = টপ আপ মেনু খুলুন
+ok = ঠিক আছে
+
+top-up-in-progress2 = আপনার টপ আপ প্রক্রিয়াধীন আছে।
+top-up-timed-out2 = নিশ্চিত হতে আপনার ব্যালেন্স হালনাগাদ করুন। যদি ব্যালেন্স অপরিবর্তিত থাকে, পুনরায় টপ-আপ করার চেষ্টা করুন।
+on-topup-not-confirmed-title = টপ-আপ নিশ্চিত হয়নি
+on-topup-not-confirmed-message = আপনার ব্যালেন্স হালনাগাদ করার চেষ্টা করুন অথবা আবার টপ-আপ করার চেষ্টা করুন।
+send = প্রেরণ করুন
+plantype-setup-title = আমার ফোন এবং ইন্টারনেট ব্যবহার পরিকল্পনা
+prepaid = প্রি-পেইড
+postpaid = পোস্ট-পেইড
+phoneactivity = ফোন কার্যকারিতা
+short-date-format = %b, %d
+sms-sent = বার্তা প্রেরণ
+call-made = কল করা হয়েছে
+settings = সেটিং
+low-balance-alert = নিম্ন ব্যালেন্স সতর্কতা
+low-balance-explanation2 = যখন ব্যালেন্স স্বল্প
+phone-and-internet-data-report = ফোন ও ইন্টারনেট ডাটার প্রতিবেদন
+internet-data-report = ইন্টারনেট তথ্য প্রতিবেদন
+starting-on = শুরু হচ্ছে
+cancel = বাতিল
+monthly = মাসিক
+weekly = সাপ্তাহিক
+monday = সোমবার
+tuesday = মঙ্গলবার
+wednesday = বুধবার
+thursday = বুধবার
+friday = শুক্রবার
+saturday = শনিবার
+sunday = রবিবার
+billing-cycle-ends = বিলিং চক্র শেষ
+tracking-will-reset = ট্র্যাকিং এই তারিখে রিসেট হবে
+yes = হ্যাঁ
+done = সম্পন্ন
+confirmation = নিশ্চিতকরণ
+reset-telephony-confirmation-warning = সব বর্তমান ডাটা অপসারণ করা হবে। আপনি কি আসলেই রিসেট করতে চান?
+reset = রিসেট
+reset-wifi = ওয়াই ফাই ব্যবহার পুনরায় সেট করুন
+reset-mobile = মোবাইল ব্যবহার পুনরায় সেট করুন
+reset-all = মোবাইল এবং ওয়ই-ফাই ডাটা পুনরায় সেট করুন
+not-set = নির্ধারিত হয়নি
+used = ব্যবহৃত
+limit-passed = সীমা অতিক্রান্ত হয়েছে
+limit = সীমা
+data-limit-header = তথ্য ব্যবহারের সীমা
+data-limit-alert = ডাটা ব্যবহারের সতর্কতা
+data-limit-value2 = ব্যবহারসীমা পার হলে
+data-limit-dialog-title2 = সতর্ক করতে মোবাইল ডাটা সীমা দিন
+data-limit-dialog-explanation2 = সীমাতে পৌঁছানোর পরে সংযোগ গতি কমে যায়। একটি উপযুক্ত সতর্কতা স্তর নির্ধারণ করতে আপনার ডাটা প্রদানকারীর সাথে যোগাযোগ করুন।
+
+# LOCALIZATION NOTE (data-limit-input-label): A label for an input field for
+# data limit. The following string is spoken by screen readers and not shown on
+# the screen.
+
+# LOCALIZATION NOTE (wifi-usage, mobile-usage): these strings are displayed in
+# the main window
+wifi-usage = ওয়াই-ফাই ব্যবহার
+mobile-usage = মোবাইলে ব্যবহার
+
+# LOCALIZATION NOTE (wifi-usage-settings, mobile-usage-settings): these strings
+# are displayed in the Settings section
+wifi-usage-settings = ওয়াই-ফাই ব্যবহার
+mobile-usage-settings = মোবাইল ব্যবহার
+
+im-prepaid = আমি প্রিপেইড
+im-postpaid = আমি পোস্টপেইড
+reset-data-usage = ডাটা ব্যবহার পুনরায় সেট করুন
+reset-report = প্রতিবেদন রিসেট করুন
+next = পরবর্তী
+back = পিছনে
+lets-go = চলুন তাহলে!
+alert = সতর্ক
+alert-limit = সতর্কতা সীমা
+fte-welcome-title = স্বাগতম
+data-limit-notification-title2 = {{limit}} ডাটা ব্যবহৃত হয়েছে
+data-limit-notification-text2 = আপনি নিজের নির্বাচিত সীমায় পৌঁছে গেছেন
+low-balance-notification-title = স্বল্প ব্যালেন্স
+low-balance-notification-text = ফোনে {{remaining}} ক্রেডিট বাকি আছে
+zero-balance-message = ব্যলেন্স শুন্য, ফোনে কোনো ক্রেডিট নেই।
+not-available = বিদ্যমান নেই
+usage = ব্যবহার
+internet = ইন্টারনেট
+phone = ফোন
+loading-interface-data = ইনটারফেস ডাটা লোড হচ্ছে। কিছুক্ষণ পর পুনরায় চেষ্টা করুন।
+
+# value in the following strings is an amount of data (100 MB, 2 GB...)
+
+verbose-chart-date-format = {{em-month}} {{monthday-number}}
+
+# Specif format for CC, string in format Today|Yesterday|<WeekDay>, hh:mm
+day-hour-format = {{day}}, {{time}}
+
+# Localized units
+B = B
+KB = KB
+# LOCALIZATION NOTE (unit-*): For switch unit button a label describing the
+# unit. The following strings are spoken by screen readers and not shown on the
+# screen.
+
+# App Usage
+
+# LOCALIZATION NOTE: For charts the following labels are used to describe
+# various layers drawn. The following strings are spoken by screen readers and
+# not shown on the screen.

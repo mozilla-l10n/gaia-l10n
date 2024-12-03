@@ -1,0 +1,43 @@
+##### Ringtone Management ####
+
+
+actions-share-ringtone = রিংটোন শেয়ার
+actions-delete-ringtone = রিংটোন অপসারণ
+actions-cancel = বাতিল
+
+delete-title-ringtone = রিংটোন অপসারণ
+delete-desc = আপনি "{{tone}}" অপসারণের ব্যপারে নিশ্চিত?
+delete-desc-default-ringtone = "{{tone}}" বর্তমান ডিফল্ট রিংটোন।\n\nআপনি এটি অপসারণের ব্যপারে নিশ্চিত?
+delete-desc-default-alerttone = "{{tone}}" বর্তমান ডিফল্ট এলার্টটোন।\n\nআপনি কি এটি অপসারণের ব্যপারে নিশ্চিত?
+delete-cancel = বাতিল
+delete-confirm = অপসারণ
+deleted-ringtone = রিংটোন অপসারিত হয়েছে।
+
+created-tone = নতুন রিংটোন তৈরি হয়েছে।
+set-default-tone = ডিফল্ট রিংটোন হিসেবে সেট হয়েছে।
+
+
+##### Ringtone Picking #####
+
+pick-title = রিংটোন নির্বাচন করুন
+
+##### List Section Headers #####
+
+
+##### Ringtone Sharing (creation) #####
+
+create-title = রিংটোন তৈরি করুন
+create-save = সংরক্ষণ
+create-cancel = বাতিল
+
+play-error-title = নষ্ট হওয়া ফাইল
+play-error-desc = এই ফাইলটি নষ্ট। এটি রিংটোন তৈরিতে ব্যবহার করা যাবেনা।
+
+save-error-title = রিংটোন তৈরি হয়নি
+save-error-desc = রিংটোন তৈরিতে একটি সমস্যা হয়েছে। দয়া করে পুনরায় চেষ্টা করুন।
+
+default-label = ডিফল্ট রিংটোন হিসেবে ব্যবহার করুন
+
+ok = ঠিক আছে
+
+ringtone-untitled = শিরোনামহীন

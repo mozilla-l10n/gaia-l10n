@@ -1,0 +1,509 @@
+help=সহায়তা
+cancel=বাতিল
+skip=উপেক্ষা করুন
+clear.ariaLabel=পরিষ্কার
+
+# LOCALIZATION NOTE(undo.ariaLabel): The following string is spoken by screen
+# readers and not shown on the screen.
+undo.ariaLabel = পূর্বাবস্থা
+
+enterPIN=পিন প্রবেশ করুন
+mediaPlaybackControls.ariaLabel=প্লেব্যাক কন্ট্রোল
+mediaPlaybackPrevious.ariaLabel=পূর্ববর্তী
+mediaPlaybackPlay.ariaLabel=চালানো
+mediaPlaybackPause.ariaLabel=বিরতি
+mediaPlaybackNext.ariaLabel=পরবর্তী
+wifiButton-on=ওয়াই-ফাই চালু
+wifiButton-on-initializing= ওয়াই-ফাই চালু, সক্রিয় হচ্ছে
+wifiButton-off=ওয়াই-ফাই বন্ধ
+dataButton-on=ডেটা {{type}} চালু
+dataButton-off=ডেটা {{type}} বন্ধ
+bluetoothButton-on=ব্লু-টুথ সক্রিয়
+bluetoothButton-on-initializing= ব্লু-টুথ চালু, সক্রিয় হচ্ছে
+bluetoothButton-off=ব্লু-টুথ নিষ্ক্রিয়
+airplaneMode-on=বিমান মোড চালু
+airplaneMode-off=বিমান মোড বন্ধ
+settingsButton.ariaLabel=সেটিং
+
+# status bar text label
+statusbarLabel={{date}}, {{operator}}
+# see http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
+statusbarDateFormat=%b %e
+# The following statusbar messages are for screen reader accessibility.
+statusbar.ariaLabel=স্ট্যাটাস বার
+statusbarBattery.ariaLabel=ব্যাটারি {{level}} শতাংশ
+statusbarBatteryCharging.ariaLabel=ব্যাটারি {{level}} শতাংশ, চার্জ হচ্ছে
+statusbarFlightMode.ariaLabel=বিমান মোড চালু
+statusbarWiFiConnecting=ওয়াই-ফাই: সংযোগ হচ্ছে
+statusbarWiFiConnected=ওয়াই-ফাই: ৪টির মধ্যে {{level}} বার
+statusbarSignal={{operator}} নেটওয়ার্ক, ৫টির মধ্যে {{level}} বার
+statusbarSignalRoaming={{operator}} নেটওয়ার্ক (roaming), ৫টির মধ্যে {{level}} বার
+statusbarSignalNoneSearching=অনুসন্ধান হচ্ছে...শুধুমাত্র জরুরী কল
+statusbarHeadphones.ariaLabel=হেডফোন চালু
+statusbarBluetoothHeadphones.ariaLabel=ব্লুটুথ হেডফোন চালু
+statusbarBluetoothTransferring.ariaLabel=ব্লুটুথ ট্রান্সফার সক্রিয়
+statusbarIconOn-tethering=টিথারিং চালু
+statusbarIconOnActive-tethering=টিথারিং চালু, সক্রিয়
+statusbarAlarm.ariaLabel=এলার্ম চালু
+statusbarIconOn-bluetooth=ব্লুটুথ চালু
+statusbarIconOnActive-bluetooth=ব্লুটুথ চালু, সক্রিয়
+statusbarIconOn-mute=নিঃশব্দ করুন
+statusbarIconOn-vibration=কম্পন চালু
+statusbarRecording.ariaLabel=রেকর্ড চালু
+statusbarGeolocation.ariaLabel=ভৌগলিক-অবস্থান চালু
+statusbarUsb.ariaLabel=USB চালু
+statusbarForwarding=কল ফরোয়ার্ড চালু
+statusbarPlaying.ariaLabel=মিডিয়া চলছে
+statusbarNfc.ariaLabel=NFC চালু
+statusbarDownloads.ariaLabel=ডাউনলোড করা হচ্ছে…
+statusbarNetworkActivity.ariaLabel=নেটওয়ার্কিং চালু
+statusbarEmergencyCBNotification.ariaLabel=জরুরী কলব্যাক
+statusbarNotifications={[ plural(n) ]}
+statusbarNotifications-unread.ariaLabel[one]={{n}}টি অপঠিত নোটিফিকেশন
+
+# notifications
+notifications=বিজ্ঞপ্তি
+clear-all=সব পরিষ্কার
+
+# Attention Screen
+attentionScreen-tapToShow = প্রদর্শন করতে ট্যাপ করুন
+
+# voice mails
+newVoicemails={[ plural(n) ]}
+newVoicemails[zero] = নতুন কোন ভয়েস মেইল নেই
+newVoicemails[one]   = একটি নতুন ভয়েস মেইল
+newVoicemails[two] = {{n}} নতুন ভয়েস মেইল
+newVoicemails[few] = {{n}} টি নতুন ভয়েস মেইল
+newVoicemails[many] = {{n}} টি নতুন ভয়েস মেইল
+newVoicemails[other] = {{n}} টি নতুন ভয়েস মেইল
+newVoicemailsUnknown = নতুন ভয়েস মেইল
+dialNumber = {{number}} ডায়াল করুন
+voicemailNotificationMultiSim = (সিম {{n}}) {{title}}
+
+# EU roaming
+
+# NFC Bluetooth Connect
+confirmNFCConnectBTenabledNameUnknown = আপনি কি নিশ্চিতরূপে ডিভাইসটির সাথে যুক্ত হতে ইচ্ছুক?
+confirmNFCConnectBTdisabledNameUnknown = ব্লুটুথ চালু করে ডিভাইসটির সাথে সংযোগ স্থাপন করতে চান?
+confirmNFCConnectBTenabledNameKnown = আপনি কি সংযোগ স্থাপন করার ব্যাপারে নিশ্চিত {{deviceName}}?
+confirmNFCConnectBTdisabledNameKnown = ব্লুটুথ চালু করে {{deviceName}} এর সাথে সংযোগ স্থাপন করতে চান?
+confirmNFCConnectBTdisabled = চালু করুন
+dismissNFCConnectBTdisabled = বাতিল
+confirmation = নিশ্চিতকরণ
+
+# sleep menu
+deviceMenu=ফোন
+airplane=বিমান মোড চালু করুন
+airplaneOff=বিমান মোড বন্ধ করুন
+silent=ইনকামিং কল নিঃশব্দ করুন
+normal=ইনকামিং কলের সময় রিং বাজবে
+restart=পুনরায় চালু করুন
+power=বন্ধ করুন
+
+# cards view
+# LOCALIZATION NOTE: The following strings are spoken by screen readers and not
+# shown on the screen.
+
+# permissions
+# LOCALIZATION NOTE: this is displayed in a permission request dialog box,
+# see shared/permissions/permissions.properties for more context.
+yes=হ্যাঁ
+no=না
+dontallow=অনুমোদন করবেন না
+allow=অনুমোদন
+dontshare-geolocation=শেয়ার করবেন না
+share-geolocation=শেয়ার
+dontshare-audio-capture=শেয়ার করবেন না
+share-audio-capture=শেয়ার
+dontshare-video-capture=শেয়ার করবেন না
+share-video-capture=শেয়ার
+dontshare-media-capture=শেয়ার করবেন না
+share-media-capture=শেয়ার
+device-front=সামনের ক্যামেরা
+device-back=পেছনের ক্যামেরা
+remember-my-choice=আমার পছন্দ মনে রাখুন
+more-info=আরও তথ্য...
+hide-info=তথ্য আড়াল করুন
+
+# App install
+install-app={{name}} ইনস্টল করতে চান?
+size=আকার
+author=লেখক
+size-unknown=অজানা
+author-unknown=অজানা
+install=ইনস্টল
+bytes=বাইট
+kB=KB
+MB=MB
+GB=GB
+TB=টেরাবাইট
+PB=পেটাবাইট
+app-install-generic-error={{ appName }} ডাউনলোড বন্ধ হয়ে গিয়েছে
+app-install-download-failed={{ appName }} ডাউনলোড ব্যর্থ হয়েছে
+app-install-install-failed={{ appName }} ইনস্টল ব্যর্থ হয়েছে
+cancelling-will-not-refund=বাতিল করলে কেনাকাটার টাকা ফেরত দেয়া হবে না। মূল্য পরিশোধকৃত জিনিসের টাকা আসল বিক্রেতা ফেরত দিবে।
+apps-can-be-installed-later=আসল ইনস্টলেশন সোর্স থেকে পরেও অ্যাপ ইনস্টল করা যাবে।
+are-you-sure-you-want-to-cancel=আপনি কি নিশ্চিত যে এই ইনস্টল বাতিল করবেন?
+# LOCALIZATION NOTE (cancel-install*): cancel-install is the string used in
+# the title, cancel-install-button is used in the bottom-left button
+cancel-install=ইনস্টল বাতিল
+cancel-install-button=ইনস্টল বাতিল
+resume=পুনরায় শুরু
+continue=চালিয়ে যান
+stopDownloading={{ app }} ডাউনলোড বন্ধ করবেন?
+app-download-can-be-restarted=ডাউনলোড পরেও পুনরায় করা যাবে।
+app-download-stop-button=ডাউনলোড বন্ধ
+not-enough-space=যথেষ্ট পরিমাণ জায়গা নেই
+not-enough-space-message=অ্যাপ ইনস্টল করার জন্য প্রয়োজনীয় জায়গা নেই। পুরাতন অ্যাপ বা মিডিয়া অপসারণ করে জায়গা খালি করুন এবং আবার আসল সোর্স থেকে ইনস্টল করার চেষ্টা করুন।
+app-install-success={{ appName }} ইনস্টল হয়েছে
+
+#setup dialog
+setup=সেটআপ
+
+#ime
+ime-addkeyboards=কীবোর্ড যোগ করুন
+
+# update manager
+later=পরে
+download=ডাউনলোড
+wantToDownload=এখন ডাউনলোড আপডেট করবেন?
+installNow=এখন ইনস্টল করুন
+notNow=এখন না
+# the <span> element will be displayed when the download finishes
+downloadingUpdateMessage.innerHTML=হালনাগাদ ডাউনলোড হচ্ছে… <span>{{ progress }} ডাউনলোড সম্পন্ন হয়েছে।</span>
+downloadingAppMessage={{ appName }} ডাউনলোড হচ্ছে
+downloadingAppProgressNoMax={{ progress }} ডাউনলোড হয়েছে
+downloadingAppProgressIndeterminate=ডাউনলোড করা হচ্ছে
+downloadingAppProgress={{ progress }} / {{ max }} ডাউনলোড হয়েছে
+cancelAllDownloads=সব ডাউনলোড বাতিল
+wantToCancelAll=আপনি কি সব ডাউনলোড বাতিল করার ব্যাপারে নিশ্চিত?
+downloadError=হালনাগাদ ডাউনলোড করার সময় ত্রুটি পাওয়া গেছে।
+updateAvailableInfo.innerHTML        = {[ plural(n) ]}
+updateAvailableInfo.innerHTML[one]   = {{ n }} টি হালনাগাদ পাওয়া গেছে। <span>আরও তথ্যের জন্য এখানে চাপুন।</span>
+updateAvailableInfo.innerHTML[two]   = {{ n }} টি হালনাগাদ পাওয়া গেছে। <span>আরও তথ্যের জন্য এখানে চাপুন।</span>
+updateAvailableInfo.innerHTML[few]   = {{ n }} টি হালনাগাদ পাওয়া গেছে। <span>আরও তথ্যের জন্য এখানে চাপুন।</span>
+updateAvailableInfo.innerHTML[many]  = {{ n }} টি হালনাগাদ পাওয়া গেছে। <span>আরও তথ্যের জন্য এখানে চাপুন।</span>
+updateAvailableInfo.innerHTML[other] = {{ n }} টি হালনাগাদ পাওয়া গিয়েছে। <span>আরও তথ্যের জন্য এখানে চাপুন।</span>
+numberOfUpdates={[ plural(n) ]}
+numberOfUpdates[one]={{ n }} টি হালনাগাদ বিদ্যমান
+numberOfUpdates[two]={{ n }} টি হালনাগাদ বিদ্যমান
+numberOfUpdates[few]={{ n }} টি হালনাগাদ পাওয়া গিয়েছে
+numberOfUpdates[many]={{ n }} টি হালনাগাদ বিদ্যমান
+numberOfUpdates[other]={{ n }} টি হালনাগাদ বিদ্যমান
+systemUpdate=সিস্টেম হালনাগাদ
+systemUpdateReady=সিস্টেমের হালনাগাদ প্রস্তুত
+# LOCALIZATION NOTE (systemUpdateLowBatteryThreshold): {{ threshold }} will be
+# replaced at runtime by the minimum level of the battery needed to update,
+# resulting for example in "You need at least 40% battery level to install the
+# update."
+systemUpdateLowBatteryThreshold=আপডেট ইনস্টল করতে {{ threshold }}% ব্যাটারি থাকতে হবে।
+required=প্রয়োজনীয়
+uncompressingMessage.innerHTML=অসংকুচিত করা হচ্ছে... <span>এই কাজের জন্য কিছু সময় প্রয়োজন।</span>
+downloadWifiPrioritizedUsing2G=ওয়াই-ফাই না থাকায় ডাটা সংযোগের মাধ্যমে হালনাগাদ ডাউনলোড হয়েছে। যখন ডাটা সংযোগ ব্যবহার করা হয়, তখন ফোন কল ব্লক হয়ে যেতে পারে এবং অতিরিক্ত চার্জও প্রযোজ্য হতে পারে।
+downloadNoWifiWarning=ওয়াই-ফাই উপলব্ধ নেই। বর্তমান সংযোগের মাধ্যমে হালনাগাদ করা হলে অতিরিক্ত চার্জ প্রযোজ্য হতে পারে।
+downloadUpdatesViaDataConnection=ডাটা সংযোগের মাধ্যমে হালনাগাদ ডাউনলোড করবেন?
+
+# screenshots
+screenshotSaved       = স্ক্রিনশট সংরক্ষিত হয়েছে
+screenshotFailed      = স্ক্রিনশট সংরক্ষিত হয়নি
+screenshotNoSDCard    = কোন মেমোরি কার্ড খুজেঁ পায়নি
+screenshotSDCardInUse = মেমরি কার্ডটি ব্যবহার করা হচ্ছে
+screenshotSDCardLow   = মেমোরি কার্ডে যথেষ্ঠ পরিমাণ জায়গা নেই
+
+# logshake
+
+# lock screen
+emergency-call-button=জরুরি কল
+emergency-call=জরুরী কল
+unlock-a11y-button.ariaLabel=লক খুলুন
+camera-a11y-button.ariaLabel=ক্যামেরা
+# see http://pubs.opengroup.org/onlinepubs/007908799/xsh/strftime.html
+longDateFormat=%A, %B %e
+# LOCALIZATION NOTE(panel-passcode.ariaLabel): The following string is spoken by
+# screen readers and not shown on the screen.
+panel-passcode.ariaLabel = পাসকোড প্যানেল
+
+#software buttons
+softwareHomeButton.ariaLabel=হোম
+
+# system dialogs
+login=সাইন ইন
+username=ব্যবহারকারীর নাম
+password=গোপনশব্দ
+error-message={{name}} ঠিকমতো লোড হচ্ছে না
+error-title={{name}} এ সমস্যা হচ্ছে
+tap-to-check-settings=সেটিং দেখতে ট্যাপ করুন।
+
+# Prompt that appears when a user tries to delete an app/collection/bookmark.
+
+# Prompt that appears when removing an app
+# Quick settings dialog
+
+# value selector, time/date picker
+select-time=সময় নির্বাচন করুন
+choose-option=নির্বাচন করুন
+choose-options=নির্বাচন
+select-day=দিন নির্বাচন করুন
+
+# system overlay
+
+# wrapper
+share=শেয়ার
+
+# crash report dialog
+crash-dialog2-os={{brandShortName}} মাত্র একটি ক্র্যাশ থেকে পুনরুদ্ধার হয়েছে
+crash-dialog-app={{name}} এইমাত্র ক্র্যাশ হলো
+crash-dialog-message=এই ক্র্যাশ সম্পর্কে আপনি কি মজিলাকে একটি রিপোর্ট প্রেরণ করবেন যাতে তা সমাধান করা যায়? (রিপোর্ট শুধুমাত্র ওয়াই-ফাই এর মাধ্যমে পাঠানো হবে।)
+crash-info-link=একটি ক্র্যাশ রিপোর্টে কি থাকবে?
+crash-always-report=যখনই একটি ক্র্যাশ ঘটবে তখনই মজিলাকে রিপোর্ট পাঠান।
+crash-dont-send=প্রেরন করবেন না
+crash-end=রিপোর্ট পাঠান
+
+# "Crash Reports" information page
+crashReports=ক্র্যাশ রিপোর্ট
+done=সম্পন্ন
+# Localization note (crash-reports-description-*): These strings are also included in settings.properties
+crash-reports-description-1=একটি ক্র্যাশ রিপোর্ট ক্র্যাশটির ও আপনার ডিভাইসের কিছু তথ্য ধারন করে , এবং ক্র্যাশের সময় আপনার ডিভাইসের অবস্থার একটা স্ন্যাপশটও।
+crash-reports-description-2=খোলা পেজ এবং অ্যাপ, ফর্মে লিখিত লেখা এবং খোলা বার্তার বিষয়বস্তু, সাম্প্রতিক ব্রাউজিং এর ইতিহাস অথবা অ্যাপ দ্বারা ব্যবহৃত ভুঅবস্থান এতে অন্তর্ভুক্ত থাকে।
+# Localization note (crash-reports-description-3-*): These strings are a paragraph, with a "privacy policy"
+# link in the middle. Include trailing spaces as needed.
+crash-reports-description-3-start=সমস্যা সমাধান এবং আমাদের প্রোডাক্টের উন্নয়ন করতে ক্র্যাশ রিপোর্ট ব্যবহার করি। আমরা আপনার তথ্য এমনভাবে গ্রহন করি যেমনটা বর্ননা করি আমাদের\u0020
+crash-reports-description-3-privacy=গোপনীয়তা নীতি
+crash-reports-description-3-end=।
+
+# crash notification banner
+crash-banner-os2={{brandShortName}} এই মাত্র ক্র্যাস করল
+crash-banner-app={{name}} এইমাত্র ক্র্যাশ করল
+crash-banner-report=রিপোর্ট
+
+# bluetooth transfer
+bluetooth-sending-progress=ব্লুটুথ স্থানান্তর পাঠানো হচ্ছে…
+bluetooth-receiving-progress=ব্লুটুথ স্থানান্তর গ্রহন করা হচ্ছে…
+acceptFileTransfer=ব্লুটুথ দ্বারা আসন্ন ফাইল গ্রহন করবেন?
+transfer-confirmation-title={{deviceName}}
+transfer-confirmation-description=স্থানান্তরের অনুরোধ পর্যালোচনা করুন।
+byteUnit-B  = বাইট
+byteUnit-KB = KB
+byteUnit-MB = মেগাবাইট
+byteUnit-GB = গিগাবাইট
+byteUnit-TB = টেরাবাইট
+byteUnit-PB = পেটাবাইট
+byteUnit-EB = এক্সাবাইট
+byteUnit-ZB = জেটাবাইট
+byteUnit-YB = ইয়ট্টাবাইট
+# Localization note (fileSize*): The string is a float.
+fileSize = {{size}} {{unit}}
+deny=প্রত্যাখ্যান
+transfer=স্থানান্তর
+cancelFileTransfer=ব্লুটুথ ফাইল ট্রান্সফার বন্ধ করবেন?
+continueFileTransfer=চালিয়ে যান
+transfer-has-started-title=স্থানান্তর শুরু হয়েছে
+transfer-has-started-description=নোটিফিকেশন সেন্টারে অগ্রগতি দেখুন
+transferFinished-sentSuccessful-title=ফাইল পাঠান হয়েছে
+transferFinished-receivedSuccessful-title=ফাইল গ্রহণ করা হয়েছে
+transferFinished-sentFailed-title=ফাইল পাঠানো সম্ভব হয়নি
+transferFinished-receivedFailed-title=ফাইল গ্রহণ করা সম্ভব হয়নি
+transferReport-title=স্থানান্তর রিপোর্ট:
+transferReport-description={{numSuccessful}} টি ফাইল সফল, {{numUnsuccessful}} টি ফাইল বিফল
+unknown-file=অজানা ফাইল
+unknown-device=অজানা ধরনের ডিভাইস
+cannotOpenFile=প্রাপ্ত ফাইলটি খোলা যাচ্ছে না
+cannotReceiveFile=ফাইলটি গ্রহন করা যাচ্ছে না
+cannotGetStorageState=ডিভাইসের স্টোরেজ অবস্থা পাওয়া যাচ্ছেনা।
+sdcard-not-exist2=কোনো মেমোরি কার্ড নেই। দয়া করে মেমোরি কার্ড প্রবেশ করান।
+sdcard-in-use=ইউএসবি লাগানো অবস্থায় ব্লুটুথ ব্যবহার করা যাবে না। ফাইল গ্রহন করতে ফোন থেকে ইউএসবি খুলে ফেলুন।
+sdcard-no-space2=স্থানান্তর সম্পন্ন হয়নি: মেমরি কার্ডে খালি জায়গা নেই।
+unknown-error=অজ্ঞাত ত্রুটি
+confirm=নিশ্চিত করুন
+
+# Storage Status
+
+# Media Recoding
+microphone-is-on=মাইক চালু আছে
+camera-is-on=ক্যামেরা চালু আছে
+media-is-on=ক্যামেরা ও মাইক চালু আছে
+
+# Security :: SIM PIN lock
+noSimCard=কোন সিম কার্ড নেই
+simPin=সিমের পিন
+pukCode=পাক কোড
+nckCode=NCK কোড
+cckCode=CCK কোড
+spckCode=SPCK কোড
+nck1code=NCK1 কোড
+nck2code=NCK2 কোড
+hnckcode=HNCK কোড
+rcckcode=RCCK কোড
+rspckcode=RSPCK কোড
+whatIsSimPin=সিম পিন কি?
+simPinIntro1=সিম পিন হচ্ছে সেটা যেটি আপনাকে সেলুলার ডাটা নেটওয়ার্কে সিম কার্ড ব্যবহার করতে দেবে না। যখন এটি চালু থাকবে তখন এই সিম কার্ড লাগানো যেকোনো ডিভাইস রিস্টার্ট দিলে পিন চাবে।
+simPinIntro2=ডিভাইস আনলক করতে সিম পিন আর পাসকোড একই হবে না।
+changeSimPin=PIN পরিবর্তন
+pinTitle=সিমের PIN প্রবেশ করান
+multiSIMpinTitle=সিম {{n}} পিন লিখুন
+pukTitle=PUK কোড প্রবেশ করান
+nckTitle=NCK কোড প্রবেশ করান
+cckTitle=CCK কোড প্রবেশ করান
+spckTitle=SPCK কোড প্রবেশ করান
+nck1Title=NCK1 কোড প্রবেশ করান
+nck2Title=NCK2 কোড প্রবেশ করান
+hnckTitle=HNCK কোড লিখুন
+rcckTitle=RCCK কোড লিখুন
+rspckTitle=RSPCK কোড লিখুন
+newpinTitle=নতুন PIN
+inputCodeRetriesLeft={[ plural(n) ]}
+inputCodeRetriesLeft[one]=শেষ চেষ্টা।
+inputCodeRetriesLeft[two]={{n}} বার চেষ্টা বাকী আছে।
+inputCodeRetriesLeft[few]={{n}} বার চেষ্টা বাকী আছে।
+inputCodeRetriesLeft[many]={{n}} বার চেষ্টা বাকী আছে।
+inputCodeRetriesLeft[other]={{n}} বার চেষ্টা বাকী আছে।
+pinErrorMsg=PIN টি ভুল ছিল।
+pinAttemptMsg2={[ plural(n) ]}
+pinAttemptMsg2[one]=সিম কার্ড লক হয়ে যাওয়ার আগে সঠিক কোড প্রবেশের জন্য আপনার আর একটি সুযোগ বাকি আছে।
+pinAttemptMsg2[two]=সিম কার্ড লক হয়ে যাওয়ার আগে সঠিক কোড প্রবেশের জন্য আপনার আরও {{n}} টি সুযোগ বাকি আছে।
+pinAttemptMsg2[few]=সিম কার্ড লক হয়ে যাওয়ার আগে সঠিক কোড প্রবেশের জন্য আপনার আরও {{n}} টি সুযোগ বাকি আছে।
+pinAttemptMsg2[many]=সিম কার্ড লক হয়ে যাওয়ার আগে সঠিক কোড প্রবেশের জন্য আপনার আরও {{n}} টি সুযোগ বাকি আছে।
+pinAttemptMsg2[other]=সিম কার্ড লক হয়ে যাওয়ার আগে সঠিক কোড প্রবেশের জন্য আপনার আরও {{n}} টি সুযোগ বাকি আছে।
+pinLastChanceMsg=সঠিক পিনটি প্রবেশ করানোর এটিই আপনার শেষ সুযোগ। অন্যথায়, এই সিম কার্ডটি ব্যবহার করার জন্য আপনাকে অবশ্যই পাক কোড প্রবেশ করাতে হবে।
+simCardLockedMsg=সিম কার্ডটি লক হয়ে গেছে।
+enterPukMsg=আপনাকে অবশ্যই এই সিম কার্ডটির ব্যাক্তিগত বন্ধ খোলার চাবি (PUK) কোড প্রবেশ করাতে হবে। আরও তথ্যের জন্য আপনার সিম কার্ডের নথিপত্র খুজুন অথবা আপনার ক্যারিয়ার এর সাথে যোগাযোগ করুন।
+pukErrorMsg=PUK কোডটি সঠিক নয়।
+pukAttemptMsg2={[ plural(n) ]}
+pukAttemptMsg2[one]=সিম কার্ডটি স্থায়ীভাবে আব্যাবহারযোগ্য হওয়ার পূর্বে সঠিক কোডটি প্রবেশ করানোর জন্য আপনার কাছে শুধুমাত্র একটি সুযোগ বাকি রয়েছে। আরও তথ্যের জন্য আপনার সিম কার্ডের নথিপত্র দেখুন অথবা আপনার ক্যারিয়ার এর সাথে যোগাযোগ করুন।
+pukAttemptMsg2[two]=সিম কার্ডটি স্থায়ীভাবে আব্যাবহারযোগ্য হওয়ার পূর্বে সঠিক কোডটি প্রবেশ করানোর জন্য আপনার কাছে {{n}} টি সুযোগ বাকি রয়েছে। আরও তথ্যের জন্য আপনার সিম কার্ডের নথিপত্র দেখুন অথবা আপনার ক্যারিয়ার এর সাথে যোগাযোগ করুন।
+pukAttemptMsg2[few]=সিম কার্ডটি স্থায়ীভাবে আব্যাবহারযোগ্য হওয়ার পূর্বে সঠিক কোডটি প্রবেশ করানোর জন্য আপনার কাছে {{n}} টি সুযোগ বাকি রয়েছে। আরও তথ্যের জন্য আপনার সিম কার্ডের নথিপত্র দেখুন অথবা আপনার ক্যারিয়ার এর সাথে যোগাযোগ করুন।
+pukAttemptMsg2[many]=সিম কার্ডটি স্থায়ীভাবে আব্যাবহারযোগ্য হওয়ার পূর্বে সঠিক কোডটি প্রবেশ করানোর জন্য আপনার কাছে {{n}} টি সুযোগ বাকি রয়েছে। আরও তথ্যের জন্য আপনার সিম কার্ডের নথিপত্র দেখুন অথবা আপনার ক্যারিয়ার এর সাথে যোগাযোগ করুন।
+pukAttemptMsg2[other]=সিম কার্ডটি স্থায়ীভাবে আব্যাবহারযোগ্য হওয়ার পূর্বে সঠিক কোডটি প্রবেশ করানোর জন্য আপনার কাছে {{n}} টি সুযোগ বাকি রয়েছে। আরও তথ্যের জন্য আপনার সিম কার্ডের নথিপত্র দেখুন অথবা আপনার ক্যারিয়ার এর সাথে যোগাযোগ করুন।
+pukLastChanceMsg=সঠিক পাক কোড প্রবেশ করানোর সর্বশেষ সুযোগ। আপনার সিম কার্ডটি স্থায়ীভাবে অচল হয়ে যাবে যদি আপনি ভুল পাক কোড প্রবেশ করান। আরও তথ্যের জন্য আপনার সিম কার্ডের নথিপত্র দেখুন অথবা আপনার ক্যারিয়ার এর সাথে যোগাযোগ করুন।
+newSimPinMsg=একটি পিন তৈরী করুন (অবশ্যই ৪ থেকে ৮টি সংখ্যা থাকতে হবে)
+confirmNewSimPinMsg=নতুন PIN নিশ্চিত করুন
+newPinErrorMsg=PIN গুলো মিলেনি।
+nckErrorMsg=NCK কোডটি সঠিক নয়।
+nckAttemptMsg2={[ plural(n) ]}
+nckAttemptMsg2[one]=নেটওয়ার্ক ডিস্পার্সোনালাইজেশন অনুরোধ ব্যর্থ। সঠিক কোড প্রবেশ করানোর জন্য আর একটি মাত্র সুযোগ আছে আপনার। আপনার ডিভাইস নথিপত্র পড়ুন অথবা অধিক বিবরণের জন্য আপনার ক্যারিয়ার সাথে যোগাযোগ করুন।
+nckAttemptMsg2[two]=নেটওয়ার্ক ডিস্পার্সোনালাইজেশন অনুরোধ ব্যর্থ। সঠিক কোড প্রবেশ করানোর জন্য আর {{n}} টি মাত্র সুযোগ আছে আপনার। আপনার ডিভাইস নথিপত্র পড়ুন অথবা অধিক বিবরণের জন্য আপনার ক্যারিয়ার সাথে যোগাযোগ করুন।
+nckAttemptMsg2[few]=নেটওয়ার্ক ডিস্পার্সোনালাইজেশন অনুরোধ ব্যর্থ। সঠিক কোড প্রবেশ করানোর জন্য আর {{n}} টি মাত্র সুযোগ আছে আপনার। আপনার ডিভাইস নথিপত্র পড়ুন অথবা অধিক বিবরণের জন্য আপনার ক্যারিয়ার সাথে যোগাযোগ করুন।
+nckAttemptMsg2[many]=নেটওয়ার্ক ডিস্পার্সোনালাইজেশন অনুরোধ ব্যর্থ। সঠিক কোড প্রবেশ করানোর জন্য আর {{n}} টি মাত্র সুযোগ আছে আপনার। আপনার ডিভাইস নথিপত্র পড়ুন অথবা অধিক বিবরণের জন্য আপনার ক্যারিয়ার সাথে যোগাযোগ করুন।
+nckAttemptMsg2[other]=নেটওয়ার্ক ডিস্পার্সোনালাইজেশন অনুরোধ ব্যর্থ। সঠিক কোড প্রবেশ করানোর জন্য আর {{n}} টি মাত্র সুযোগ আছে আপনার। আপনার ডিভাইস নথিপত্র পড়ুন অথবা অধিক বিবরণের জন্য আপনার ক্যারিয়ার সাথে যোগাযোগ করুন।
+nckLastChanceMsg=নেটওয়ার্ক ডিস্পার্সোনালাইজেশন অনুরোধ ব্যর্থ। সঠিক NCK কোড প্রবেশ করানোর এটি-ই শেষ সুযোগ। আপনার ডিভাইস নথিপত্র পড়ুন অথবা অধিক বিবরণের জন্য আপনার ক্যারিয়ার সাথে যোগাযোগ করুন।
+
+# Activity selection menu titles
+activity-pick= যেখান থেকে নির্বাচন করবেন:
+activity-view= যা দিয়ে দেখবেন:
+activity-test= যা দিয়ে পরিক্ষা করবেন:
+activity-share= যাদের সাথে শেয়ার করবেন:
+activity-new= যা দিয়ে তৈরি করবেন:
+activity-open= খুলতে ব্যবহার করুন:
+activity-save-bookmark=বুকমার্ক করুন:
+activity-record=রেকর্ড করুন এটা থেকে:
+activity-browse=ব্রাউজ করুন এটা দিয়ে:
+activity-configure=কনফিগার করুন এটা দিয়ে:
+activity-dial=ডায়াল করুন এটা থেকে:
+
+# Persona dialog and Identity
+persona-signin=সাইন ইন
+
+# Payment dialog
+payment-flow=ক্রয়
+
+# Remote Debugger Connection Dialog
+remoteDebuggerMessage=দূরবর্তী ডিবাগিং সংযোগের অনুমতির জন্য একটি অন্তর্মুখী অনুরোধ পাওয়া গেছে। সংযোগের অনুমতি প্রদান করা হবে?
+
+# fullscreen permission
+# LOCALIZATION NOTE {{origin}} is the origin of the site which has requested fullscreen, e.g. http://example.com is now fullscreen. It includes protocol + hostname.
+fullscreen-request={{origin}} এখন পূর্ণ পর্দা জুড়ে আছে।
+
+#captive wifi
+captive-wifi-available={{networkName}} নেটওয়ার্কটি পাওয়া গিয়েছে। নেটওয়ার্কটিতে যোগ দিবেন?
+
+# [CE] Volume warning toast
+ceWarningtitle=ভলিউম সতর্কবার্তা
+ceWarningcontent=শ্রবণশক্তির সম্ভাব্য ক্ষতি প্রতিরোধ করার জন্য, দীর্ঘ সময় ধরে জন্য উচ্চ ভলিউমে শুনবেন না।
+
+#power saving mode
+notification-powersaving-mode-on-title=বিদ্যুৎ সংরক্ষণ মোড
+notification-powersaving-mode-on-description=বিদ্যুৎ সংরক্ষণ মোড চালু।
+
+# Low device storage
+low-device-storage=ডিভাইসে জায়গা কম।\n
+# LOCALIZATION NOTE {{value}} is the amount of remaining free space expressed
+# in the corresponding unit ({{unit}}), which is one of the byteUnit-* strings
+# of this same file.
+free-space={[ plural(value) ]}
+free-space[zero]=কোন খালি যায়গা নেই।
+free-space[one]={{value}} {{unit}} এরও কম জায়গা রয়েছে।
+free-space[two]={{value}} {{unit}} এরও কম জায়গা রয়েছে।
+free-space[few]={{value}} {{unit}} এরও কম জায়গা রয়েছে।
+free-space[many]={{value}} {{unit}} এরও কম জায়গা রয়েছে।
+free-space[other]={{value}} {{unit}} এরও কম জায়গা রয়েছে।
+unknown-free-space=অজানা জায়গা রয়েছে।
+
+# Cell Broadcast System
+system-alert=সিস্টেমের সতর্কবার্তা
+cb-channel=চ্যানেল {{channel}}
+cb-etws-warningType-earthquake=ভূমিকম্প সতর্কতা!
+cb-etws-warningType-tsunami=সুনামি সতর্কতা!
+cb-etws-warningType-earthquake-tsunami=ভূমিকম্প-সুনামি সতর্কতা!
+cb-etws-warningType-test=সতর্কতা পদ্ধতি পরীক্ষা করা হচ্ছে।
+cb-etws-warningType-other=জরুরী সতর্কতা!
+
+# ICC / STK (= SIM Toolkit)
+icc-message-maintitle=অপারেটরের বার্তা
+icc-message-subtitle=SIM {{id}}
+icc-confirmCall-defaultmessage=ডায়াল {{number}}?
+icc-alertMessage-defaultmessage=বার্তা পাঠানো হচ্ছে
+icc-confirmMessage-defaultmessage=বার্তা পাঠাবেন?
+# LOCALIZATION NOTE: (icc-inputbox-[main|sub]title) = title of SIM Toolkit input dialog panels
+icc-inputbox-maintitle=STK অনুসন্ধান
+icc-inputbox-subtitle=SIM {{id}}
+
+# CDMA emergency callback mode
+emergency-callback-mode=জরুরী কলব্যাক মোড
+emergency-callback-message=আপনি কল করতে, বার্তা পাঠাতে বা অনলাইন যেতে পারবেন না কারন জরুরী কলব্যাক মোড সক্রিয় করা আছে। আপনি কি এটা বন্ধ করতে চান?
+
+# CDMA record information
+cdma-record-info=CDMA রেকর্ড তথ্য
+
+# IME (Keyboard)
+
+# LOCALIZATION NOTE(ime-switching-title): parameters will be replace at run-
+# time. Resulting example for English: "Built-in Keyboard: English".
+ime-switching-title={{appName}}: {{name}}
+ime-switching-tip=ইনপুট পদ্ধতি পরিবর্তনের জন্য চাপুন
+
+# Shrinking UI
+shrinking-tip=শেয়ার করার জন্য সুইপ করুন
+
+# Download Manager
+download_started=ডাউনলোড শুরু হয়েছে
+download_stopped=ডাউনলোড বন্ধ হয়েছে
+download_downloading=ডাউনলোড করা হচ্ছে…
+download_succeeded=ডাউনলোড শেষ
+download_failed=ডাউনলোড ব্যর্থ হয়েছে
+
+download_text_by_default={{name}}
+download_downloading_text_2={{percentage}}% - {{name}}
+
+# Rocketbar
+search-or-enter-address=ঠিকানা দিন অথবা অনুসন্ধান করুন
+search-or-enter-address.placeholder=ঠিকানা দিন অথবা অনুসন্ধান করুন
+# LOCALIZATION NOTE: The following strings are spoken by screen readers and
+# not shown on the screen.
+
+# Hotspot
+apmActivated=বিমান মোড সক্রিয়
+
+
+# Browser Context Menu
+add-link-to-home-screen=হোম স্ক্রীনে লিংক যোগ করুন
+share-link=লিংক শেয়ার করুন
+save-image=ছবি সংরক্ষণ
+save-video=ভিডিও সংরক্ষণ
+save-audio=অডিও সংরক্ষণ
+save-link=লিঙ্ক করা ফাইল সংরক্ষণ
+share-image=ছবি শেয়ার
+share-video=ভিডিও শেয়ার
+share-audio=অডিও শেয়ার
+
+# Private Browser
+
